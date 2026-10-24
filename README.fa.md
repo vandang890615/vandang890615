@@ -64,9 +64,9 @@
 
 | پروژه | استک | توضیحات | وضعیت |
 |:---|:---:|:---|:---:|
-| [**OpenCADStudio**](https://github.com/vandang890615/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | برنامه مدرن و متن‌باز CAD با زبان Rust و شتاب‌دهنده گرافیکی GPU. | مشارکت‌کننده فعال |
+| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | برنامه مدرن و متن‌باز CAD با زبان Rust و شتاب‌دهنده گرافیکی GPU. | مشارکت‌کننده رسمی |
 | **VNCAD Engine** | `.NET 10` `C#` `MCP` | موتور محاسباتی سبک و قدرتمند CAD منطبق با استانداردهای ساختمانی و هوش مصنوعی MCP. | در حال توسعه |
-| [**SolidCraft**](https://github.com/vandang890615/solidcraft) | `Rust` `3D Parametric` | ابزار CAD پارامتریک سه‌بعدی تماماً بر پایه Rust برای دسکتاپ و وب. | نگهداری شاخه فعال |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | `Rust` `3D Parametric` | ابزار CAD پارامتریک سه‌بعدی تماماً بر پایه Rust برای دسکتاپ و وب. | مشارکت در جامعه متن‌باز |
 | **HCNT Workshop Twin** | `FastAPI` `Python` `Tekla` | سامانه دوقلوی دیجیتال برای خط تولید کارخانجات اسکلت فلزی و زمان‌بندی گانت وکتور. | استقرار عملیاتی |
 
 ---

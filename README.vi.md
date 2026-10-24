@@ -62,9 +62,9 @@ Lĩnh vực chuyên môn trọng tâm:
 
 | Dự Án | Công Nghệ | Mô Tả | Trạng Thái |
 |:---|:---:|:---|:---:|
-| [**OpenCADStudio**](https://github.com/vandang890615/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | Ứng dụng CAD 2D/3D mã nguồn mở đa nền tảng tăng tốc phần cứng bằng GPU. | Đóng góp lõi |
+| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | Ứng dụng CAD 2D/3D mã nguồn mở đa nền tảng tăng tốc phần cứng bằng GPU. | Đóng góp Upstream |
 | **VNCAD Engine** | `.NET 10` `C#` `MCP` | Engine CAD chuyên dụng thiết kế chi tiết kết cấu theo TCVN/ISO và tự động hóa AI qua MCP. | Đang phát triển |
-| [**SolidCraft**](https://github.com/vandang890615/solidcraft) | `Rust` `3D Parametric` | Trình CAD tham số 3D mã nguồn mở thuần Rust cho desktop và web. | Phân nhánh duy trì |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | `Rust` `3D Parametric` | Trình CAD tham số 3D mã nguồn mở thuần Rust cho desktop và web. | Tham gia đóng góp |
 | **HCNT Workshop Twin** | `FastAPI` `Python` `Tekla` | Hệ thống quản lý sản xuất và số hóa xưởng gia công kết cấu thép công nghiệp nặng. | Vận hành thực tế |
 
 ---

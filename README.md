@@ -142,9 +142,9 @@ Upstream contributions to core CAD repositories:
 
 | Project | Stack | Description | Status |
 |:---|:---:|:---|:---:|
-| [**OpenCADStudio**](https://github.com/vandang890615/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | Cross-platform 2D/3D CAD application with GPU hardware acceleration. | Core Contributor |
+| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | Cross-platform 2D/3D CAD application with GPU hardware acceleration. | Upstream Contributor |
 | **VNCAD Engine** | `.NET 10` `C#` `MCP` | Specialized CAD engine for structural detailing and AI-assisted drawing automation. | In Development |
-| [**SolidCraft**](https://github.com/vandang890615/solidcraft) | `Rust` `3D Parametric` | Pure Rust parametric 3D CAD application for desktop and web. | Active Fork |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | `Rust` `3D Parametric` | Pure Rust parametric 3D CAD application for desktop and web. | Community Fork |
 | **HCNT Workshop Twin** | `FastAPI` `Python` `Tekla` | Heavy industrial steel fabrication management and digital twin system. | Production |
 
 ---
