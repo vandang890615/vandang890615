@@ -34,7 +34,7 @@
 **Van Dang** — Structural Engineer & CAD/BIM Core Developer.
 
 Focused on heavy industrial steel structures and engineering software infrastructure:
-- **Structural Engineering:** Industrial steel structure design (AISC, Eurocode, TCVN), 3D modeling with Tekla Structures, connection detailing, and CNC fabrication preparation.
+- **Structural Engineering:** Industrial steel structure design (AISC, Eurocode, TCVN), 3D parametric structural modeling, connection detailing, and CNC fabrication preparation.
 - **CAD/BIM Development:** Contributing to open-source CAD rendering and geometry in **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)), developing high-performance **.NET 10** CAD engines ([VNCAD](https://github.com/vandang890615/vncad)), and protocol-driven drafting automation via **MCP (Model Context Protocol)**.
 - **Tooling & Infrastructure:** Fabrication shop dispatching systems, bill of materials (BOM) pipelines, and AutoLISP/Python automation.
 
@@ -46,7 +46,7 @@ Focused on heavy industrial steel structures and engineering software infrastruc
 **Văn Đăng** — Kỹ sư Kết cấu & Kỹ sư Phát triển Lõi CAD/BIM.
 
 Lĩnh vực chuyên môn trọng tâm:
-- **Kỹ thuật Kết cấu:** Thiết kế & lập bản vẽ chi tiết (Shop Drawing) kết cấu thép công nghiệp nặng theo tiêu chuẩn AISC, Eurocode, TCVN; mô hình hóa 3D với Tekla Structures, thiết kế liên kết và chuẩn bị dữ liệu phôi cắt CNC.
+- **Kỹ thuật Kết cấu:** Thiết kế & lập bản vẽ chi tiết (Shop Drawing) kết cấu thép công nghiệp nặng theo tiêu chuẩn AISC, Eurocode, TCVN; mô hình hóa kết cấu 3D tham số, thiết kế liên kết và chuẩn bị dữ liệu phôi cắt CNC.
 - **Phát triển Lõi CAD/BIM:** Đóng góp cho lõi đồ họa và hình học CAD mã nguồn mở bằng **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)), phát triển engine CAD hiệu năng cao trên nền tảng **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), và tự động hóa quy trình vẽ kỹ thuật qua giao thức **MCP (Model Context Protocol)**.
 - **Công cụ Kỹ thuật & Hạ tầng:** Xây dựng hệ thống điều độ sản xuất chế tạo thép, đường ống xử lý dữ liệu vật tư (BOM), và các tập lệnh tự động hóa bằng AutoLISP / Python.
 
@@ -58,7 +58,7 @@ Lĩnh vực chuyên môn trọng tâm:
 **Ван Данг (Van Dang)** — инженер-строитель (металлоконструкции) и разработчик систем САПР/ТИМ.
 
 Специализация — тяжёлые промышленные конструкции и инженерное программное обеспечение:
-- **Проектирование металлоконструкций:** Расчёт и рабочая документация (КМ/КМД) по нормам AISC, Eurocode и TCVN; трёхмерное моделирование в Tekla Structures, расчёт узловых соединений и подготовка файлов ЧПУ для заводского раскроя.
+- **Проектирование металлоконструкций:** Расчёт и рабочая документация (КМ/КМД) по нормам AISC, Eurocode и TCVN; параметрическое трёхмерное моделирование строительных конструкций, расчёт узловых соединений и подготовка файлов ЧПУ для заводского раскроя.
 - **Разработка САПР/ТИМ:** Разработка компонентов графического ядра САПР на **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)), создание легковесного движка САПР на платформе **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), автоматизация проектирования через протокол **MCP**.
 - **Инженерная автоматизация:** Системы диспетчеризации цехового производства металлоконструкций, обработка ведомостей расхода материалов (BOM), скрипты на AutoLISP и Python.
 
@@ -70,7 +70,7 @@ Lĩnh vực chuyên môn trọng tâm:
 **范登 (Van Dang)** — 结构工程师 / CAD与BIM内核开发工程师。
 
 专注于重型工业钢结构工程与底层工程软件研发：
-- **钢结构工程:** 依据 AISC、Eurocode 及 TCVN 规范进行工业重型钢结构设计与深化图（Shop Drawing）设计；熟练进行 Tekla Structures 3D 精细建模、节点连接验算以及工厂数控（CNC）切割套料。
+- **钢结构工程:** 依据 AISC、Eurocode 及 TCVN 规范进行工业重型钢结构设计与深化图（Shop Drawing）设计；3D 参数化结构精细建模、节点连接验算以及工厂数控（CNC）切割套料。
 - **CAD/BIM 内核研发:** 为基于 **Rust** 的跨平台开源 CAD 渲染与几何核心 ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)) 贡献代码；研发基于 **.NET 10** 的专业 CAD 引擎 ([VNCAD](https://github.com/vandang890615/vncad))；探索基于 **MCP** 协议的 AI 辅助图纸自动化生成。
 - **工程自动化工具链:** 钢结构制造车间排产调度流水线、BOM 物料清单处理管道及 AutoLISP / Python 工程自动化脚本。
 
@@ -84,7 +84,7 @@ Lĩnh vực chuyên môn trọng tâm:
 **ون دانگ (Van Dang)** — مهندس سازه و توسعه‌دهنده هسته نرم‌افزارهای CAD/BIM.
 
 تمرکز بر تحلیل سازه‌های فولادی سنگین صنعتی و توسعه زیرساخت‌های نرم‌افزاری مهندسی:
-- **مهندسی سازه‌های فولادی:** طراحی و تهیه نقشه‌های شاپ‌دراوینگ سازه‌های صنعتی سنگین مطابق با استانداردهای AISC، Eurocode و TCVN؛ مدلسازی پیشرفته در Tekla Structures، طراحی اتصالات و بهینه‌سازی برش قطعات برای ماشین‌آلات CNC کارخانه.
+- **مهندسی سازه‌های فولادی:** طراحی و تهیه نقشه‌های شاپ‌دراوینگ سازه‌های صنعتی سنگین مطابق با استانداردهای AISC، Eurocode و TCVN؛ مدلسازی پیشرفته سازه‌ای سه‌بعدی و پارامتریک، طراحی اتصالات و بهینه‌سازی برش قطعات برای ماشین‌آلات CNC کارخانه.
 - **توسعه هسته CAD/BIM:** مشارکت در توسعه موتور گرافیکی و پردازش متون در نرم‌افزارهای متن‌باز CAD با زبان **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft))؛ ساخت موتور مستقل CAD بر پایه **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad))؛ و اتوماسیون فرایندهای نقشه‌کشی با پروتکل **MCP**.
 - **اتوماسیون و ابزارسازی:** توسعه سامانه‌های برنامه‌ریزی تولید کارخانجات اسکلت فلزی، استخراج خودکار لیستوفر (BOM) و برنامه‌نویسی با زبان‌های Python و AutoLISP.
 
@@ -129,11 +129,11 @@ Upstream contributions to core CAD & 3D geometry repositories:
 <br/>
 
 #### Engineering & Detailing
-| Domain | Software & Frameworks | Technical Competencies |
+| Domain | Open Tech & Frameworks | Technical Competencies |
 |:---|:---|:---|
-| **CAD Core** | OpenCAD Studio, AutoCAD, FreeCAD | Rust GPU rendering (wgpu), AutoLISP, ObjectARX, DXF/DWG pipelines |
-| **BIM & Detailing** | Tekla Structures, Autodesk Revit, Blender | Steel fabrication detailing, Tekla Open API, automated BOM generation |
-| **Backend & Tooling** | .NET 10, FastAPI, SQLite, PostgreSQL | High-performance calculation engines, MCP automation protocols, geometric computing |
+| **CAD Core** | SolidCraft, OpenCADStudio, FreeCAD, VNCAD | Rust GPU rendering (wgpu), DXF/DWG format parsers, .NET 10 CAD architecture, AutoLISP automation |
+| **BIM & 3D Geometry** | Open BIM (IFC), Blender 3D, Parametric Modeler | 3D structural modeling, automated BOM/BBS generation, CNC nesting data pipelines, geometric computation |
+| **Backend & Tooling** | .NET 10, FastAPI, SQLite, PostgreSQL, Rust | High-performance calculation engines, Model Context Protocol (MCP), CAD/BIM automation protocols |
 
 ---
 
@@ -144,7 +144,7 @@ Core engineering engines, automation pipelines, and technical systems designed a
 | System / Software | Stack | Description & Core Capabilities | Role / Status |
 |:---|:---:|:---|:---:|
 | **VNCAD Engine** | `.NET 10` `C#` `MCP` | High-performance 2D CAD engine tailored for structural detailing and AI-assisted drafting via Model Context Protocol. | Core Architect / Active |
-| **Structural Fabrication Twin** | `FastAPI` `Python` `Tekla` | Real-time industrial steel fabrication dispatching, Vector Gantt scheduling, and automated CNC nesting data pipeline. | Author / Production |
+| **Structural Fabrication Twin** | `FastAPI` `Python` `OpenBIM` | Real-time industrial steel fabrication dispatching, Vector Gantt scheduling, and automated CNC nesting data pipeline. | Author / Production |
 | **VietStruct Detailing Suite** | `AutoLISP` `.NET` `Python` | Automated structural drafting tools, parametric steel connection detailing, and TCVN/AISC compliance checking. | Author / Production |
 | **Material Takeoff & BBS Engine** | `Python` `PyQt5` `SQLite` | Automated Bill of Materials (BOM) extraction, structural bar bending schedules (BBS), and cross-section geometry analysis. | Author / Production |
 

@@ -158,9 +158,9 @@
     <rect x="42" y="172" width="124" height="25" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.5" />
     <text x="104" y="188" text-anchor="middle" fill="#38bdf8">RUST CAD CORE</text>
 
-    <!-- Badge 2: Tekla Structures -->
+    <!-- Badge 2: Open BIM & IFC -->
     <rect x="176" y="172" width="140" height="25" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#818cf8" stroke-width="0.8" stroke-opacity="0.5" />
-    <text x="246" y="188" text-anchor="middle" fill="#818cf8">TEKLA STRUCTURES</text>
+    <text x="246" y="188" text-anchor="middle" fill="#818cf8">OPEN BIM &amp; IFC</text>
 
     <!-- Badge 3: .NET 10 & MCP -->
     <rect x="326" y="172" width="124" height="25" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.5" />
