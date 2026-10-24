@@ -5,7 +5,7 @@
 
 <!-- 4-Language Typing Animation (EN, RU, ZH, FA) -->
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=580&lines=Structural%20Engineer%20%26%20CAD/BIM%20Developer%20%F0%9F%8F%97%EF%B8%8F%3B%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80-%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%26%20%D0%A1%D0%90%D0%9F%D0%A0%20%28Rust%2C%20.NET%29%20%F0%9F%87%B7%F0%9F%87%BA%3B%E9%92%A2%E7%BB%93%E6%9E%84%E5%B7%A5%E7%A8%8B%E5%B8%88%20%26%20CAD/BIM%E5%86%85%E6%A0%B8%E5%BC%80%E5%8F%91%20%F0%9F%87%A8%F0%9F%87%B3%3B%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%B3%D8%A7%D8%B2%D9%87%20%D9%88%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%E2%80%8C%D8%AF%D9%87%D9%86%D8%AF%D9%87%20CAD/BIM%20%F0%9F%87%AE%F0%9F%87%B7" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=580&lines=Structural%20Engineer%20%26%20CAD/BIM%20Developer%20%F0%9F%8F%97%EF%B8%8F%3B%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80-%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%26%20%D0%A1%D0%90%D0%9F%D0%A0%20%28Rust%2C%20.NET%29%3B%E9%92%A2%E7%BB%93%E6%9E%84%E5%B7%A5%E7%A8%8B%E5%B8%88%20%26%20CAD/BIM%E5%86%85%E6%A0%B8%E5%BC%80%E5%8F%91%3B%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%B3%D8%A7%D8%B2%D9%87%20%D9%88%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%E2%80%8C%D8%AF%D9%87%D9%86%D8%AF%D9%87%20CAD/BIM" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -31,7 +31,7 @@
 ### Profile Overview
 
 <details open>
-<summary><b id="-about-me-english">🇺🇸 About (English)</b></summary>
+<summary><b id="-about-me-english">About (English)</b></summary>
 
 **Van Dang** — Structural Engineer & CAD/BIM Core Developer.
 
@@ -43,7 +43,7 @@ Focused on heavy industrial steel structures and engineering software infrastruc
 </details>
 
 <details open>
-<summary><b id="-о-себе-русский">🇷🇺 О себе (Русский)</b></summary>
+<summary><b id="-о-себе-русский">О себе (Русский)</b></summary>
 
 **Ван Данг (Van Dang)** — инженер-строитель (металлоконструкции) и разработчик систем САПР/ТИМ.
 
@@ -55,7 +55,7 @@ Focused on heavy industrial steel structures and engineering software infrastruc
 </details>
 
 <details open>
-<summary><b id="-关于我-中文">🇨🇳 个人简介 (中文)</b></summary>
+<summary><b id="-关于我-中文">个人简介 (中文)</b></summary>
 
 **范登 (Van Dang)** — 结构工程师 / CAD与BIM内核开发工程师。
 
@@ -67,7 +67,7 @@ Focused on heavy industrial steel structures and engineering software infrastruc
 </details>
 
 <details open>
-<summary><b id="-درباره-من-فارسی">🇮🇷 درباره من (فارسی)</b></summary>
+<summary><b id="-درباره-من-فارسی">درباره من (فارسی)</b></summary>
 
 <div dir="rtl">
 
@@ -88,10 +88,10 @@ Focused on heavy industrial steel structures and engineering software infrastruc
 
 | Language | Proficiency | Context & Application |
 |:---|:---:|:---|
-| 🇬🇧 **English** | Professional | Technical documentation, OSS collaboration, structural design |
-| 🇷🇺 **Russian (Русский)** | Working / Technical | Engineering standards (SNiP / GOST), mechanical and structural literature |
-| 🇨🇳 **Chinese (中文)** | Working / Technical | Steel fabrication specifications (GB), supply chain collaboration |
-| 🇮🇷 **Persian (فارسی)** | Working / Technical | Engineering exchange, community and regional technical communication |
+| **English** | Professional | Technical documentation, OSS collaboration, structural design |
+| **Russian (Русский)** | Working / Technical | Engineering standards (SNiP / GOST), mechanical and structural literature |
+| **Chinese (中文)** | Working / Technical | Steel fabrication specifications (GB), supply chain collaboration |
+| **Persian (فارسی)** | Working / Technical | Engineering exchange, community and regional technical communication |
 
 ---
 
