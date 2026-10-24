@@ -43,7 +43,7 @@ Focused on heavy industrial steel structures and engineering software infrastruc
 
 </details>
 
-<details open>
+<details>
 <summary><b id="-giới-thiệu-tiếng-việt">Giới thiệu (Tiếng Việt)</b></summary>
 
 **Văn Đăng** — Kỹ sư Kết cấu & Kỹ sư Phát triển Lõi CAD/BIM.
@@ -55,7 +55,7 @@ Lĩnh vực chuyên môn trọng tâm:
 
 </details>
 
-<details open>
+<details>
 <summary><b id="-о-себе-русский">О себе (Русский)</b></summary>
 
 **Ван Данг (Van Dang)** — инженер-строитель (металлоконструкции) и разработчик систем САПР/ТИМ.
@@ -67,7 +67,7 @@ Lĩnh vực chuyên môn trọng tâm:
 
 </details>
 
-<details open>
+<details>
 <summary><b id="-关于我-中文">个人简介 (中文)</b></summary>
 
 **范登 (Van Dang)** — 结构工程师 / CAD与BIM内核开发工程师。
@@ -79,7 +79,7 @@ Lĩnh vực chuyên môn trọng tâm:
 
 </details>
 
-<details open>
+<details>
 <summary><b id="-درباره-من-فارسی">درباره من (فارسی)</b></summary>
 
 <div dir="rtl">
