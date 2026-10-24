@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="README.md">English</a> &bull;
+  <a href="README.vi.md">Tiếng Việt</a> &bull;
   <a href="README.ru.md">Русский</a> &bull;
   <a href="README.zh.md">中文</a> &bull;
   <b>فارسی</b>
