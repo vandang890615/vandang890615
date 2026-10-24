@@ -111,12 +111,13 @@ Lĩnh vực chuyên môn trọng tâm:
 
 ### Open-Source Contributions
 
-Upstream contributions to core CAD repositories:
+Upstream contributions to core CAD & 3D geometry repositories:
 
-| Project | Pull Request | Contribution Details | Stack | Status |
+| Project | Pull Request / Scope | Contribution Details | Stack | Status |
 |:---|:---:|:---|:---:|:---:|
-| [**HakanSeven12/OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Resolved DXF MTEXT paragraph indentation and tab-stop displacement in drawing units | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**HakanSeven12/OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Initial localized text resource bundle integration | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Resolved DXF MTEXT paragraph indentation and tab-stop displacement in drawing units | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Initial localized text resource bundle integration | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [Upstream](https://github.com/tangency-labs/solidcraft) | Pure Rust parametric 3D CAD application for desktop and web | `Rust` `3D Parametric` | ![Active](https://img.shields.io/badge/Active-00C853?style=flat-square&logo=git&logoColor=white) |
 
 ---
 
@@ -138,14 +139,16 @@ Upstream contributions to core CAD repositories:
 
 ---
 
-### Featured Projects
+### Featured Systems & Proprietary Software
 
-| Project | Stack | Description | Status |
+Engineering engines and production systems designed and developed as author / lead architect:
+
+| System / Software | Stack | Description & Core Capabilities | Role / Status |
 |:---|:---:|:---|:---:|
-| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | Cross-platform 2D/3D CAD application with GPU hardware acceleration. | Upstream Contributor |
-| **VNCAD Engine** | `.NET 10` `C#` `MCP` | Specialized CAD engine for structural detailing and AI-assisted drawing automation. | Lead Architect |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | `Rust` `3D Parametric` | Pure Rust parametric 3D CAD application for desktop and web. | Contributor |
-| **HCNT Workshop Twin** | `FastAPI` `Python` `Tekla` | Heavy industrial steel fabrication management and digital twin system. | Production |
+| **VNCAD Engine** | `.NET 10` `C#` `MCP` | High-performance 2D CAD engine tailored for structural detailing and AI-assisted drafting via Model Context Protocol. | Lead Architect / In Dev |
+| **HCNT Workshop Digital Twin** | `FastAPI` `Python` `Tekla` | Real-time industrial steel fabrication tracking, Vector Gantt scheduling, and automated CNC nesting data pipeline. | Author / Production |
+| **VietStruct Desktop** | `AutoLISP` `.NET` `Python` | Automated structural drafting tools, parametric steel connection detailing, and TCVN/AISC compliance checking. | Author / Production |
+| **Structural BOQ & Cost Engine** | `Python` `PyQt5` `SQLite` | Engineering material takeoff, steel/rebar quantity estimation database, and automated unit-price analysis system. | Author / Production |
 
 ---
 

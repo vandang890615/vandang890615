@@ -33,10 +33,13 @@ Lĩnh vực chuyên môn trọng tâm:
 
 ### Đóng Góp Mã Nguồn Mở
 
-| Dự Án | Pull Request | Chi Tiết Đóng Góp | Công Nghệ | Trạng Thái |
+Đóng góp vào các dự án lõi CAD & hình học 3D quốc tế:
+
+| Dự Án | Pull Request / Phạm Vi | Chi Tiết Đóng Góp | Công Nghệ | Trạng Thái |
 |:---|:---:|:---|:---:|:---:|
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Sửa lỗi tính toán thụt lề MTEXT và khoảng cách tab theo đơn vị bản vẽ trong tệp AutoCAD DXF | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Tích hợp gói tài nguyên chuỗi ký tự Fluent bản địa hóa | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [Upstream](https://github.com/tangency-labs/solidcraft) | Trình CAD tham số 3D mã nguồn mở thuần Rust cho desktop và web | `Rust` `3D Parametric` | ![Active](https://img.shields.io/badge/Active-00C853?style=flat-square&logo=git&logoColor=white) |
 
 ---
 
@@ -58,14 +61,16 @@ Lĩnh vực chuyên môn trọng tâm:
 
 ---
 
-### Dự Án Tiêu Biểu
+### Hệ Thống & Phần Mềm Tự Phát Triển
 
-| Dự Án | Công Nghệ | Mô Tả | Trạng Thái |
+Các engine và hệ thống kỹ thuật do chính tác giả thiết kế và phát triển độc lập:
+
+| Hệ Thống / Phần Mềm | Công Nghệ | Mô Tả & Năng Lực Trọng Tâm | Vai Trò / Trạng Thái |
 |:---|:---:|:---|:---:|
-| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | Ứng dụng CAD 2D/3D mã nguồn mở đa nền tảng tăng tốc phần cứng bằng GPU. | Đóng góp Upstream |
-| **VNCAD Engine** | `.NET 10` `C#` `MCP` | Engine CAD chuyên dụng thiết kế chi tiết kết cấu theo TCVN/ISO và tự động hóa AI qua MCP. | Kiến trúc sư trưởng |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | `Rust` `3D Parametric` | Trình CAD tham số 3D mã nguồn mở thuần Rust cho desktop và web. | Đóng góp mã nguồn |
-| **HCNT Workshop Twin** | `FastAPI` `Python` `Tekla` | Hệ thống quản lý sản xuất và số hóa xưởng gia công kết cấu thép công nghiệp nặng. | Vận hành thực tế |
+| **VNCAD Engine** | `.NET 10` `C#` `MCP` | Engine CAD 2D hiệu năng cao chuyên dụng thiết kế kết cấu theo TCVN/ISO và tự động hóa vẽ qua giao thức Model Context Protocol. | Kiến trúc sư trưởng / Đang phát triển |
+| **HCNT Workshop Digital Twin** | `FastAPI` `Python` `Tekla` | Hệ thống quản lý sản xuất xưởng kết cấu thép thời gian thực, tiến độ Vector Gantt và đường ống dữ liệu phôi cắt CNC. | Tác giả / Vận hành thực tế |
+| **VietStruct Desktop** | `AutoLISP` `.NET` `Python` | Bộ công cụ tự động hóa bản vẽ kết cấu, chi tiết liên kết thép tham số và kiểm tra tiêu chuẩn TCVN/AISC. | Tác giả / Vận hành thực tế |
+| **Structural BOQ & Cost Engine** | `Python` `PyQt5` `SQLite` | Cơ sở dữ liệu định mức bóc tách khối lượng kết cấu thép/bê tông và hệ thống tự động phân tích đơn giá dự toán. | Tác giả / Vận hành thực tế |
 
 ---
 

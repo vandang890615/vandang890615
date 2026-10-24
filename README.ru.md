@@ -5,7 +5,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Специализация-Металлоконструкции_%26_САПР-1976D2?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Локация-International-00C853?style=flat-square&logo=globe&logoColor=white" />
+  <img src="https://img.shields.io/badge/Локация-Вьетнам-00C853?style=flat-square&logo=globe&logoColor=white" />
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
 **Ван Данг (Van Dang)** — инженер-строитель (металлоконструкции) и разработчик систем САПР/ТИМ.
 
 Специализация — тяжёлые промышленные конструкции и инженерное программное обеспечение:
-- **Проектирование металлоконструкций:** Расчёт и рабочая документация (КМ/КМД) по нормам AISC и Eurocode; трёхмерное моделирование в Tekla Structures, расчёт узловых соединений и подготовка файлов ЧПУ для заводского раскроя.
+- **Проектирование металлоконструкций:** Расчёт и рабочая документация (КМ/КМД) по нормам AISC, Eurocode и TCVN; трёхмерное моделирование в Tekla Structures, расчёт узловых соединений и подготовка файлов ЧПУ для заводского раскроя.
 - **Разработка САПР/ТИМ:** Разработка компонентов графического ядра САПР на **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), создание легковесного движка САПР на платформе **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), автоматизация проектирования через протокол **MCP**.
 - **Инженерная автоматизация:** Системы управления цеховым производством металлоконструкций, обработка ведомостей материалов (BOM), скрипты на AutoLISP и Python.
 
@@ -33,10 +33,13 @@
 
 ### Вклад в Open Source
 
-| Репозиторий | PR | Описание вклада | Стек | Статус |
+Участие в разработке открытых систем САПР и геометрических ядер:
+
+| Репозиторий | PR / Проект | Описание вклада | Стек | Статус |
 |:---|:---:|:---|:---:|:---:|
-| [**HakanSeven12/OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Исправление расчёта отступов абзацев и позиционирования табуляции MTEXT в единицах чертежа DXF | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**HakanSeven12/OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Интеграция локализованных строковых ресурсов Fluent | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Исправление расчёта отступов абзацев и позиционирования табуляции MTEXT в единицах чертежа DXF | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Интеграция локализованных строковых ресурсов Fluent | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [Upstream](https://github.com/tangency-labs/solidcraft) | Параметрическая 3D САПР на чистом Rust для десктопа и веба | `Rust` `3D Parametric` | ![Active](https://img.shields.io/badge/Active-00C853?style=flat-square&logo=git&logoColor=white) |
 
 ---
 
@@ -58,14 +61,16 @@
 
 ---
 
-### Избранные проекты
+### Авторские системы и инженерное ПО
 
-| Проект | Стек | Описание | Статус |
+Собственные вычислительные движки и системы автоматизации производства:
+
+| Система / ПО | Стек | Описание и возможности | Роль / Статус |
 |:---|:---:|:---|:---:|
-| [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | Открытая система 2D/3D САПР на Rust с аппаратным ускорением на GPU. | Контрибьютор Upstream |
-| **VNCAD Engine** | `.NET 10` `C#` `MCP` | Движок САПР для оформления чертежей и автоматизации с ИИ через MCP. | Ведущий архитектор |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | `Rust` `3D Parametric` | Параметрическая 3D САПР на чистом Rust для десктопа и веба. | Контрибьютор |
-| **HCNT Workshop Twin** | `FastAPI` `Python` `Tekla` | Цифровой двойник цехового производства и ведение графика для завода металлоконструкций. | В эксплуатации |
+| **VNCAD Engine** | `.NET 10` `C#` `MCP` | Движок САПР для оформления чертежей по стандартам и автоматизации с ИИ через MCP. | Ведущий архитектор / В разработке |
+| **HCNT Workshop Digital Twin** | `FastAPI` `Python` `Tekla` | Цифровой двойник цехового производства и ведение графика для завода металлоконструкций. | Автор / В эксплуатации |
+| **VietStruct Desktop** | `AutoLISP` `.NET` `Python` | Автоматизация черчения строительных металлоконструкций и проверка узлов. | Автор / В эксплуатации |
+| **Structural BOQ & Cost Engine** | `Python` `PyQt5` `SQLite` | База данных сметных норм, расчёт ведомостей расхода стали и автоматизация смет. | Автор / В эксплуатации |
 
 ---
 
