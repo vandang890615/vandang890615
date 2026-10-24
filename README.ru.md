@@ -63,7 +63,7 @@
 | Проект | Стек | Описание | Статус |
 |:---|:---:|:---|:---:|
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | Открытая система 2D/3D САПР на Rust с аппаратным ускорением на GPU. | Контрибьютор Upstream |
-| **VNCAD Engine** | `.NET 10` `C#` `MCP` | Движок САПР для оформления чертежей и автоматизации с ИИ через MCP. | В разработке |
+| **VNCAD Engine** | `.NET 10` `C#` `MCP` | Движок САПР для оформления чертежей и автоматизации с ИИ через MCP. | Ведущий архитектор |
 | [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | `Rust` `3D Parametric` | Параметрическая 3D САПР на чистом Rust для десктопа и веба. | Контрибьютор |
 | **HCNT Workshop Twin** | `FastAPI` `Python` `Tekla` | Цифровой двойник цехового производства и ведение графика для завода металлоконструкций. | В эксплуатации |
 

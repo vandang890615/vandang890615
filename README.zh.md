@@ -63,8 +63,8 @@
 | 项目 | 技术栈 | 描述 | 状态 |
 |:---|:---:|:---|:---:|
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | `Rust` `DXF/DWG` `WGPU` | 基于 Rust 与 GPU 硬件加速的跨平台开源 2D/3D CAD 系统。 | 上游核心贡献者 |
-| **VNCAD Engine** | `.NET 10` `C#` `MCP` | 面向土木工程与钢结构详图设计的高性能 CAD 引擎，支持 MCP 协议。 | 研发中 |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | `Rust` `3D Parametric` | 纯 Rust 开发的参数化 3D CAD 系统，面向桌面端与 Web 端。 | 开源社区贡献 |
+| **VNCAD Engine** | `.NET 10` `C#` `MCP` | 面向土木工程与钢结构详图设计的高性能 CAD 引擎，支持 MCP 协议。 | 首席架构师 |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | `Rust` `3D Parametric` | 纯 Rust 开发的参数化 3D CAD 系统，面向桌面端与 Web 端。 | 核心贡献者 |
 | **HCNT Workshop Twin** | `FastAPI` `Python` `Tekla` | 重型钢结构加工车间数字孪生与矢量甘特图调度排产系统。 | 生产运行 |
 
 ---
