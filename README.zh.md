@@ -26,7 +26,7 @@
 
 专注于重型工业钢结构工程与底层工程软件研发：
 - **钢结构工程:** 依据 AISC、Eurocode 及 TCVN 规范进行工业重型钢结构设计与深化图（Shop Drawing）设计；熟练进行 Tekla Structures 3D 精细建模、节点连接验算以及工厂数控（CNC）切割套料。
-- **CAD/BIM 内核研发:** 为基于 **Rust** 的跨平台开源 CAD 渲染与几何核心 ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)) 贡献代码；研发基于 **.NET 10** 的专业 CAD 引擎 ([VNCAD](https://github.com/vandang890615/vncad))；探索基于 **MCP** 协议的 AI 辅助图纸自动化生成。
+- **CAD/BIM 内核研发:** 为基于 **Rust** 的跨平台开源 CAD 渲染与几何核心 ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)) 贡献代码；研发基于 **.NET 10** 的专业 CAD 引擎 ([VNCAD](https://github.com/vandang890615/vncad))；探索基于 **MCP** 协议的 AI 辅助图纸自动化生成。
 - **工程自动化工具链:** 钢结构制造车间排产系统、BOM 物料清单流水线及 AutoLISP / Python 工程自动化脚本。
 
 ---
@@ -35,11 +35,11 @@
 
 为国际 CAD 核心和 3D 几何算法库贡献核心代码：
 
-| 仓库 (Repository) | 合并 PR / 范围 | 贡献内容与影响 | 技术栈 | 状态 |
+| 仓库 (Repository) | 合并 PR | 贡献内容与影响 | 技术栈 | 状态 |
 |:---|:---:|:---|:---:|:---:|
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | 修复 AutoCAD DXF 图纸中多行文本（MTEXT）段落缩进与制表符坐标的图元单位计算偏差 | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | 提交并集成 Fluent 本地化语言资源包 | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [Upstream](https://github.com/tangency-labs/solidcraft) | 纯 Rust 开发的参数化 3D CAD 系统，面向桌面端与 Web 端 | `Rust` `3D Parametric` | ![Active](https://img.shields.io/badge/Active-00C853?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#2915](https://github.com/tangency-labs/solidcraft/pull/2915) | 为纯 Rust 参数化 3D CAD 系统贡献越南语本地化支持 | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 
 ---
 

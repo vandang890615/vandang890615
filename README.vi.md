@@ -26,7 +26,7 @@
 
 Lĩnh vực chuyên môn trọng tâm:
 - **Kỹ thuật Kết cấu:** Thiết kế & lập bản vẽ chi tiết (Shop Drawing) kết cấu thép công nghiệp nặng theo tiêu chuẩn AISC, Eurocode, TCVN; mô hình hóa 3D với Tekla Structures, thiết kế liên kết và chuẩn bị dữ liệu phôi cắt CNC.
-- **Phát triển Lõi CAD/BIM:** Đóng góp cho lõi đồ họa và hình học CAD mã nguồn mở bằng **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), phát triển engine CAD hiệu năng cao trên nền tảng **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), và tự động hóa quy trình vẽ kỹ thuật qua giao thức **MCP (Model Context Protocol)**.
+- **Phát triển Lõi CAD/BIM:** Đóng góp cho lõi đồ họa và hình học CAD mã nguồn mở bằng **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)), phát triển engine CAD hiệu năng cao trên nền tảng **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), và tự động hóa quy trình vẽ kỹ thuật qua giao thức **MCP (Model Context Protocol)**.
 - **Công cụ Kỹ thuật & Hạ tầng:** Xây dựng hệ thống quản lý sản xuất xưởng cơ khí, đường ống xử lý dữ liệu vật tư (BOM), và các tập lệnh tự động hóa bằng AutoLISP / Python.
 
 ---
@@ -35,11 +35,11 @@ Lĩnh vực chuyên môn trọng tâm:
 
 Đóng góp vào các dự án lõi CAD & hình học 3D quốc tế:
 
-| Dự Án | Pull Request / Phạm Vi | Chi Tiết Đóng Góp | Công Nghệ | Trạng Thái |
+| Dự Án | Pull Request | Chi Tiết Đóng Góp | Công Nghệ | Trạng Thái |
 |:---|:---:|:---|:---:|:---:|
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Sửa lỗi tính toán thụt lề MTEXT và khoảng cách tab theo đơn vị bản vẽ trong tệp AutoCAD DXF | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Tích hợp gói tài nguyên chuỗi ký tự Fluent bản địa hóa | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [Upstream](https://github.com/tangency-labs/solidcraft) | Trình CAD tham số 3D mã nguồn mở thuần Rust cho desktop và web | `Rust` `3D Parametric` | ![Active](https://img.shields.io/badge/Active-00C853?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#2915](https://github.com/tangency-labs/solidcraft/pull/2915) | Tích hợp gói bản địa hóa tiếng Việt (`vi`) cho phần mềm CAD tham số 3D thuần Rust | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 
 ---
 

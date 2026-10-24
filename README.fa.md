@@ -28,7 +28,7 @@
 
 تمرکز بر تحلیل سازه‌های فولادی سنگین صنعتی و توسعه زیرساخت‌های نرم‌افزاری مهندسی:
 - **مهندسی سازه‌های فولادی:** طراحی و تهیه نقشه‌های شاپ‌دراوینگ سازه‌های صنعتی سنگین مطابق با استانداردهای AISC و Eurocode؛ مدلسازی پیشرفته در Tekla Structures، طراحی اتصالات و بهینه‌سازی برش قطعات برای ماشین‌آلات CNC کارخانه.
-- **توسعه هسته CAD/BIM:** مشارکت در توسعه موتور گرافیکی و پردازش متون در نرم‌افزار متن‌باز CAD با زبان **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio))؛ ساخت موتور مستقل CAD بر پایه **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad))؛ و اتوماسیون فرایندهای نقشه‌کشی با پروتکل **MCP**.
+- **توسعه هسته CAD/BIM:** مشارکت در توسعه موتور گرافیکی و پردازش متون در نرم‌افزارهای متن‌باز CAD با زبان **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft))؛ ساخت موتور مستقل CAD بر پایه **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad))؛ و اتوماسیون فرایندهای نقشه‌کشی با پروتکل **MCP**.
 - **اتوماسیون و ابزارسازی:** توسعه سامانه‌های پایش تولید کارخانجات اسکلت فلزی، استخراج خودکار لیستوفر (BOM) و برنامه‌نویسی با زبان‌های Python و AutoLISP.
 
 ---
@@ -41,7 +41,7 @@
 |:---|:---:|:---|:---:|:---:|
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | رفع باگ محاسباتی تورفتگی پاراگراف‌ها و فاصله‌بندی تب‌ها در MTEXT برای فایل‌های اتوکد DXF | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | یکپارچه‌سازی بسته منابع رشته‌های متنی با فریمورک Fluent | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [Upstream](https://github.com/tangency-labs/solidcraft) | ابزار CAD پارامتریک سه‌بعدی تماماً بر پایه Rust برای دسکتاپ و وب | `Rust` `3D Parametric` | ![Active](https://img.shields.io/badge/Active-00C853?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#2915](https://github.com/tangency-labs/solidcraft/pull/2915) | افزودن پشتیبانی از بومی‌سازی زبان ویتنامی به موتور CAD پارامتریک سه‌بعدی تماماً مبتنی بر Rust | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 
 ---
 

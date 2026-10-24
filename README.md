@@ -38,7 +38,7 @@
 
 Focused on heavy industrial steel structures and engineering software infrastructure:
 - **Structural Engineering:** Industrial steel structure design (AISC, Eurocode, TCVN), 3D modeling with Tekla Structures, connection detailing, and CNC fabrication preparation.
-- **CAD/BIM Development:** Contributing to open-source CAD rendering and geometry in **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), developing high-performance **.NET 10** CAD engines ([VNCAD](https://github.com/vandang890615/vncad)), and protocol-driven drafting automation via **MCP (Model Context Protocol)**.
+- **CAD/BIM Development:** Contributing to open-source CAD rendering and geometry in **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)), developing high-performance **.NET 10** CAD engines ([VNCAD](https://github.com/vandang890615/vncad)), and protocol-driven drafting automation via **MCP (Model Context Protocol)**.
 - **Tooling & Infrastructure:** Workshop production management systems, bill of materials (BOM) pipelines, and AutoLISP/Python automation.
 
 </details>
@@ -50,7 +50,7 @@ Focused on heavy industrial steel structures and engineering software infrastruc
 
 Lĩnh vực chuyên môn trọng tâm:
 - **Kỹ thuật Kết cấu:** Thiết kế & lập bản vẽ chi tiết (Shop Drawing) kết cấu thép công nghiệp nặng theo tiêu chuẩn AISC, Eurocode, TCVN; mô hình hóa 3D với Tekla Structures, thiết kế liên kết và chuẩn bị dữ liệu phôi cắt CNC.
-- **Phát triển Lõi CAD/BIM:** Đóng góp cho lõi đồ họa và hình học CAD mã nguồn mở bằng **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), phát triển engine CAD hiệu năng cao trên nền tảng **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), và tự động hóa quy trình vẽ kỹ thuật qua giao thức **MCP (Model Context Protocol)**.
+- **Phát triển Lõi CAD/BIM:** Đóng góp cho lõi đồ họa và hình học CAD mã nguồn mở bằng **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)), phát triển engine CAD hiệu năng cao trên nền tảng **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), và tự động hóa quy trình vẽ kỹ thuật qua giao thức **MCP (Model Context Protocol)**.
 - **Công cụ Kỹ thuật & Hạ tầng:** Xây dựng hệ thống quản lý sản xuất xưởng cơ khí, đường ống xử lý dữ liệu vật tư (BOM), và các tập lệnh tự động hóa bằng AutoLISP / Python.
 
 </details>
@@ -62,7 +62,7 @@ Lĩnh vực chuyên môn trọng tâm:
 
 Специализация — тяжёлые промышленные конструкции и инженерное программное обеспечение:
 - **Проектирование металлоконструкций:** Расчёт и рабочая документация (КМ/КМД) по нормам AISC, Eurocode и TCVN; трёхмерное моделирование в Tekla Structures, расчёт узловых соединений и подготовка файлов ЧПУ для заводского раскроя.
-- **Разработка САПР/ТИМ:** Разработка компонентов графического ядра САПР на **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), создание легковесного движка САПР на платформе **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), автоматизация проектирования через протокол **MCP**.
+- **Разработка САПР/ТИМ:** Разработка компонентов графического ядра САПР на **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)), создание легковесного движка САПР на платформе **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), автоматизация проектирования через протокол **MCP**.
 - **Инженерная автоматизация:** Системы управления цеховым производством металлоконструкций, обработка ведомостей материалов (BOM), скрипты на AutoLISP и Python.
 
 </details>
@@ -74,7 +74,7 @@ Lĩnh vực chuyên môn trọng tâm:
 
 专注于重型工业钢结构工程与底层工程软件研发：
 - **钢结构工程:** 依据 AISC、Eurocode 及 TCVN 规范进行工业重型钢结构设计与深化图（Shop Drawing）设计；熟练进行 Tekla Structures 3D 精细建模、节点连接验算以及工厂数控（CNC）切割套料。
-- **CAD/BIM 内核研发:** 为基于 **Rust** 的跨平台开源 CAD 渲染与几何核心 ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)) 贡献代码；研发基于 **.NET 10** 的专业 CAD 引擎 ([VNCAD](https://github.com/vandang890615/vncad))；探索基于 **MCP** 协议的 AI 辅助图纸自动化生成。
+- **CAD/BIM 内核研发:** 为基于 **Rust** 的跨平台开源 CAD 渲染与几何核心 ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)) 贡献代码；研发基于 **.NET 10** 的专业 CAD 引擎 ([VNCAD](https://github.com/vandang890615/vncad))；探索基于 **MCP** 协议的 AI 辅助图纸自动化生成。
 - **工程自动化工具链:** 钢结构制造车间排产系统、BOM 物料清单流水线及 AutoLISP / Python 工程自动化脚本。
 
 </details>
@@ -88,7 +88,7 @@ Lĩnh vực chuyên môn trọng tâm:
 
 تمرکز بر تحلیل سازه‌های فولادی سنگین صنعتی و توسعه زیرساخت‌های نرم‌افزاری مهندسی:
 - **مهندسی سازه‌های فولادی:** طراحی و تهیه نقشه‌های شاپ‌دراوینگ سازه‌های صنعتی سنگین مطابق با استانداردهای AISC، Eurocode و TCVN؛ مدلسازی پیشرفته در Tekla Structures، طراحی اتصالات و بهینه‌سازی برش قطعات برای ماشین‌آلات CNC کارخانه.
-- **توسعه هسته CAD/BIM:** مشارکت در توسعه موتور گرافیکی و پردازش متون در نرم‌افزار متن‌باز CAD با زبان **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio))؛ ساخت موتور مستقل CAD بر پایه **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad))؛ و اتوماسیون فرایندهای نقشه‌کشی با پروتکل **MCP**.
+- **توسعه هسته CAD/BIM:** مشارکت در توسعه موتور گرافیکی و پردازش متون در نرم‌افزارهای متن‌باز CAD با زبان **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft))؛ ساخت موتور مستقل CAD بر پایه **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad))؛ و اتوماسیون فرایندهای نقشه‌کشی با پروتکل **MCP**.
 - **اتوماسیون و ابزارسازی:** توسعه سامانه‌های پایش تولید کارخانجات اسکلت فلزی، استخراج خودکار لیستوفر (BOM) و برنامه‌نویسی با زبان‌های Python و AutoLISP.
 
 </div>
@@ -113,11 +113,11 @@ Lĩnh vực chuyên môn trọng tâm:
 
 Upstream contributions to core CAD & 3D geometry repositories:
 
-| Project | Pull Request / Scope | Contribution Details | Stack | Status |
+| Project | Pull Request | Contribution Details | Stack | Status |
 |:---|:---:|:---|:---:|:---:|
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Resolved DXF MTEXT paragraph indentation and tab-stop displacement in drawing units | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Initial localized text resource bundle integration | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [Upstream](https://github.com/tangency-labs/solidcraft) | Pure Rust parametric 3D CAD application for desktop and web | `Rust` `3D Parametric` | ![Active](https://img.shields.io/badge/Active-00C853?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#2915](https://github.com/tangency-labs/solidcraft/pull/2915) | Added Vietnamese (`vi`) localization support for pure Rust parametric 3D CAD | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 
 ---
 

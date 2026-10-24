@@ -26,7 +26,7 @@
 
 Специализация — тяжёлые промышленные конструкции и инженерное программное обеспечение:
 - **Проектирование металлоконструкций:** Расчёт и рабочая документация (КМ/КМД) по нормам AISC, Eurocode и TCVN; трёхмерное моделирование в Tekla Structures, расчёт узловых соединений и подготовка файлов ЧПУ для заводского раскроя.
-- **Разработка САПР/ТИМ:** Разработка компонентов графического ядра САПР на **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), создание легковесного движка САПР на платформе **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), автоматизация проектирования через протокол **MCP**.
+- **Разработка САПР/ТИМ:** Разработка компонентов графического ядра САПР на **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)), создание легковесного движка САПР на платформе **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), автоматизация проектирования через протокол **MCP**.
 - **Инженерная автоматизация:** Системы управления цеховым производством металлоконструкций, обработка ведомостей материалов (BOM), скрипты на AutoLISP и Python.
 
 ---
@@ -35,11 +35,11 @@
 
 Участие в разработке открытых систем САПР и геометрических ядер:
 
-| Репозиторий | PR / Проект | Описание вклада | Стек | Статус |
+| Репозиторий | PR | Описание вклада | Стек | Статус |
 |:---|:---:|:---|:---:|:---:|
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Исправление расчёта отступов абзацев и позиционирования табуляции MTEXT в единицах чертежа DXF | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Интеграция локализованных строковых ресурсов Fluent | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [Upstream](https://github.com/tangency-labs/solidcraft) | Параметрическая 3D САПР на чистом Rust для десктопа и веба | `Rust` `3D Parametric` | ![Active](https://img.shields.io/badge/Active-00C853?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#2915](https://github.com/tangency-labs/solidcraft/pull/2915) | Добавление поддержки вьетнамской локализации для параметрической 3D САПР на чистом Rust | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 
 ---
 
