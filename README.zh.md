@@ -1,12 +1,9 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,24,35&height=160&section=header&text=%E8%8C%83%E7%99%BB&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
+<!-- Custom Engineered Hero Banner -->
+<img src="./assets/hero-banner.svg" alt="Structural & CAD Architecture" width="100%" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/%E4%B8%93%E6%B3%A8-%E9%92%A2%E7%BB%93%E6%9E%84_%26_CAD%E5%BC%95%E6%93%8E-1976D2?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/%E5%9C%B0%E5%8C%BA-%E8%B6%8A%E5%8D%97-00C853?style=flat-square&logo=globe&logoColor=white" />
-</p>
+<br/><br/>
 
 <p align="center">
   <a href="README.md">English</a> &bull;
@@ -78,12 +75,14 @@
 
 <div align="center">
 
-<a href="mailto:vandang890615@gmail.com">
-  <img src="https://img.shields.io/badge/Email-vandang890615%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/vandang890615">
-  <img src="https://img.shields.io/badge/GitHub-vandang890615-181717?style=flat-square&logo=github&logoColor=white" />
-</a>
+<p align="center">
+  <a href="mailto:vandang890615@gmail.com">
+    <img src="https://img.shields.io/badge/Email-vandang890615%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/vandang890615">
+    <img src="https://img.shields.io/badge/GitHub-vandang890615-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 </div>

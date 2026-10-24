@@ -1,12 +1,9 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,24,35&height=160&section=header&text=V%C4%82N%20%C4%90%C4%82NG&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
+<!-- Custom Engineered Hero Banner -->
+<img src="./assets/hero-banner.svg" alt="Structural & CAD Architecture" width="100%" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Chuy%C3%AAn_ng%C3%A0nh-K%E1%BA%BFt_c%E1%BA%A5u_th%C3%A9p_%26_CAD_Engine-1976D2?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Qu%E1%BB%91c_gia-Vi%E1%BB%87t_Nam-00C853?style=flat-square&logo=globe&logoColor=white" />
-</p>
+<br/><br/>
 
 <p align="center">
   <a href="README.md">English</a> &bull;
@@ -74,16 +71,18 @@ Các engine và hệ thống kỹ thuật do chính tác giả thiết kế và 
 
 ---
 
-### Kết Nối
+### Kết Nối & Hợp Tác
 
 <div align="center">
 
-<a href="mailto:vandang890615@gmail.com">
-  <img src="https://img.shields.io/badge/Email-vandang890615%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/vandang890615">
-  <img src="https://img.shields.io/badge/GitHub-vandang890615-181717?style=flat-square&logo=github&logoColor=white" />
-</a>
+<p align="center">
+  <a href="mailto:vandang890615@gmail.com">
+    <img src="https://img.shields.io/badge/Email-vandang890615%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/vandang890615">
+    <img src="https://img.shields.io/badge/GitHub-vandang890615-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 </div>

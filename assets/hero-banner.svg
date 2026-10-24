@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 220" width="100%" height="220">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080b11" />
+      <stop offset="50%" stop-color="#0e1726" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+
+    <!-- Border Gradient -->
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#6366f1" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="40%" stop-color="#e2e8f0" />
+      <stop offset="80%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+
+    <!-- Beam Metallic Gradient -->
+    <linearGradient id="steelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- CAD Blueprint Grid Pattern -->
+    <pattern id="cadGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-opacity="0.06" />
+      <circle cx="0" cy="0" r="0.8" fill="#38bdf8" fill-opacity="0.12" />
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 0.95; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.9); }
+    }
+    .status-dot {
+      animation: pulse 2.2s infinite ease-in-out;
+      transform-origin: 45px 38px;
+    }
+    .mono {
+      font-family: 'Fira Code', 'JetBrains Mono', 'Consolas', monospace;
+    }
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Helvetica Neue', sans-serif;
+    }
+    .cad-wire {
+      stroke: #38bdf8;
+      stroke-width: 1.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .cad-dim {
+      stroke: #64748b;
+      stroke-width: 0.8;
+      stroke-dasharray: 2 2;
+    }
+  </style>
+
+  <!-- Container Box with Rounded Corners and Subtle High-Tech Border -->
+  <rect x="1" y="1" width="918" height="218" rx="12" fill="url(#bgGradient)" stroke="url(#borderGradient)" stroke-width="1.2" />
+
+  <!-- Blueprint Grid Overlay -->
+  <rect x="2" y="2" width="916" height="216" rx="11" fill="url(#cadGrid)" />
+
+  <!-- Technical Corner Marks (Drafting Crosshairs) -->
+  <g stroke="#38bdf8" stroke-opacity="0.2" stroke-width="1">
+    <line x1="24" y1="16" x2="24" y2="30" />
+    <line x1="16" y1="23" x2="32" y2="23" />
+    <line x1="896" y1="190" x2="896" y2="204" />
+    <line x1="888" y1="197" x2="904" y2="197" />
+  </g>
+
+  <!-- Top System Bar -->
+  <g class="mono" font-size="10.5">
+    <!-- Live Status Indicator -->
+    <circle cx="45" cy="38" r="4" fill="#10b981" class="status-dot" />
+    <text x="56" y="42" fill="#10b981" font-weight="600" letter-spacing="1.2">SYSTEM // ONLINE</text>
+    <text x="180" y="42" fill="#475569">|</text>
+    <text x="195" y="42" fill="#94a3b8" letter-spacing="0.8">CORE: VANDANG890615</text>
+
+    <!-- Right-aligned Spec / Coords -->
+    <text x="880" y="42" text-anchor="end" fill="#64748b" letter-spacing="1">CAD.ARCH // RUST &amp; .NET 10</text>
+  </g>
+
+  <!-- Header Section -->
+  <!-- Monospace Handle / Domain Prefix -->
+  <text class="mono" x="42" y="80" font-size="12" font-weight="600" fill="#38bdf8" letter-spacing="2">
+    &gt; COMPUTATIONAL CAD &amp; STRUCTURAL SYSTEMS
+  </text>
+
+  <!-- Main Hero Title -->
+  <text class="sans" x="42" y="118" font-size="32" font-weight="800" fill="url(#titleGradient)" letter-spacing="0.8">
+    STRUCTURAL &amp; CAD ARCHITECTURE
+  </text>
+
+  <!-- Subtitle Statement -->
+  <text class="sans" x="43" y="146" font-size="13.5" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+    High-Performance CAD Engines <tspan fill="#38bdf8">•</tspan> Heavy Steel Detail <tspan fill="#38bdf8">•</tspan> CNC Fabrication Automation
+  </text>
+
+  <!-- 3D Structural Steel CAD Wireframe Graphic (Right Side) -->
+  <g transform="translate(710, 62)">
+    <!-- Dimension reference lines -->
+    <line x1="20" y1="12" x2="165" y2="12" class="cad-dim" />
+    <line x1="165" y1="12" x2="165" y2="95" class="cad-dim" />
+    <text class="mono" x="92" y="8" font-size="8.5" fill="#64748b" text-anchor="middle">L = 14,700 mm</text>
+    <text class="mono" x="175" y="55" font-size="8.5" fill="#64748b">H200</text>
+
+    <!-- Isometric Steel I-Beam Section -->
+    <!-- Front I-Face -->
+    <!-- Top Flange Front -->
+    <polygon points="15,45 60,25 70,29 25,49" fill="url(#steelGradient)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.85" />
+    <!-- Web Front -->
+    <polygon points="40,34 48,30 48,68 40,72" fill="url(#steelGradient)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.85" />
+    <!-- Bottom Flange Front -->
+    <polygon points="25,79 70,59 80,63 35,83" fill="url(#steelGradient)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.85" />
+
+    <!-- Top Flange Extrusion (Length) -->
+    <polygon points="60,25 150,-15 160,-11 70,29" fill="#0f172a" fill-opacity="0.6" stroke="#0ea5e9" stroke-width="1" stroke-opacity="0.6" />
+    <polygon points="25,49 70,29 160,-11 115,9" fill="#1e293b" fill-opacity="0.4" stroke="#0ea5e9" stroke-width="1" stroke-opacity="0.5" />
+
+    <!-- Web Extrusion -->
+    <polygon points="48,30 138,-10 138,28 48,68" fill="#0b1120" fill-opacity="0.7" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.4" />
+
+    <!-- Bottom Flange Extrusion -->
+    <polygon points="70,59 160,19 170,23 80,63" fill="#0f172a" fill-opacity="0.6" stroke="#0ea5e9" stroke-width="1" stroke-opacity="0.6" />
+
+    <!-- Connection Stiffener / Gusset Plate -->
+    <polygon points="90,12 110,3 110,35 90,44" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.9" />
+
+    <!-- Bolt Holes (Circle markers) on Plate -->
+    <circle cx="97" cy="22" r="2" fill="#38bdf8" fill-opacity="0.8" />
+    <circle cx="103" cy="19" r="2" fill="#38bdf8" fill-opacity="0.8" />
+    <circle cx="97" cy="34" r="2" fill="#38bdf8" fill-opacity="0.8" />
+    <circle cx="103" cy="31" r="2" fill="#38bdf8" fill-opacity="0.8" />
+
+    <!-- Axis Crosshair indicator -->
+    <g transform="translate(145, 80)" class="mono" font-size="8" fill="#38bdf8" stroke="#38bdf8" stroke-width="0.8">
+      <line x1="0" y1="0" x2="16" y2="-8" stroke-opacity="0.6" />
+      <text x="18" y="-7" stroke="none" fill-opacity="0.8">X</text>
+      <line x1="0" y1="0" x2="-12" y2="-6" stroke-opacity="0.6" />
+      <text x="-19" y="-6" stroke="none" fill-opacity="0.8">Y</text>
+      <line x1="0" y1="0" x2="0" y2="-16" stroke-opacity="0.6" />
+      <text x="3" y="-14" stroke="none" fill-opacity="0.8">Z</text>
+    </g>
+  </g>
+
+  <!-- Bottom Technical Badges -->
+  <g class="mono" font-size="10" font-weight="600">
+    <!-- Badge 1: Rust CAD Core -->
+    <rect x="42" y="172" width="124" height="25" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.5" />
+    <text x="104" y="188" text-anchor="middle" fill="#38bdf8">RUST CAD CORE</text>
+
+    <!-- Badge 2: Tekla Structures -->
+    <rect x="176" y="172" width="140" height="25" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#818cf8" stroke-width="0.8" stroke-opacity="0.5" />
+    <text x="246" y="188" text-anchor="middle" fill="#818cf8">TEKLA STRUCTURES</text>
+
+    <!-- Badge 3: .NET 10 & MCP -->
+    <rect x="326" y="172" width="124" height="25" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#a78bfa" stroke-width="0.8" stroke-opacity="0.5" />
+    <text x="388" y="188" text-anchor="middle" fill="#a78bfa">.NET 10 &amp; MCP</text>
+
+    <!-- Badge 4: Shop Detailing -->
+    <rect x="460" y="172" width="130" height="25" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#34d399" stroke-width="0.8" stroke-opacity="0.5" />
+    <text x="525" y="188" text-anchor="middle" fill="#34d399">SHOP DETAILING</text>
+
+    <!-- Badge 5: TCVN & AISC -->
+    <rect x="600" y="172" width="115" height="25" rx="5" fill="#1e293b" fill-opacity="0.8" stroke="#fbbf24" stroke-width="0.8" stroke-opacity="0.5" />
+    <text x="657" y="188" text-anchor="middle" fill="#fbbf24">TCVN &amp; AISC</text>
+  </g>
+</svg>

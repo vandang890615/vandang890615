@@ -1,17 +1,14 @@
 <div align="center">
 
-<!-- Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,24,35&height=160&section=header&text=V%C4%82N%20%C4%90%C4%82NG&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" />
+<!-- Custom Engineered Hero Banner -->
+<img src="./assets/hero-banner.svg" alt="Structural & CAD Architecture" width="100%" />
+
+<br/><br/>
 
 <!-- 5-Language Typing Animation (EN, VI, RU, ZH, FA) -->
 <a href="https://readme-typing-svg.demolab.com">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=580&lines=Structural%20Engineer%20%26%20CAD/BIM%20Developer%20%F0%9F%8F%97%EF%B8%8F%3BK%E1%BB%B9%20s%C6%B0%20K%E1%BA%BFt%20c%E1%BA%A5u%20%26%20Ph%C3%A1t%20tri%E1%BB%83n%20l%C3%B5i%20CAD/BIM%3B%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80-%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%26%20%D0%A1%D0%90%D0%9F%D0%A0%20%28Rust%2C%20.NET%29%3B%E9%92%A2%E7%BB%93%E6%9E%84%E5%B7%A5%E7%A8%8B%E5%B8%88%20%26%20CAD/BIM%E5%86%85%E6%A0%B8%E5%BC%80%E5%8F%91%3B%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%B3%D8%A7%D8%B2%D9%87%20%D9%88%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%E2%80%8C%D8%AF%D9%87%D9%86%D8%AF%D9%87%20CAD/BIM" alt="Typing SVG" />
 </a>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Specialization-Heavy_Steel_Structures_%26_CAD_Engines-1976D2?style=flat-square&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-Vietnam-00C853?style=flat-square&logo=globe&logoColor=white" />
-</p>
 
 <!-- Language Quick Links -->
 <p align="center">
@@ -177,20 +174,22 @@ Engineering engines and production systems designed and developed as author / le
 
 ---
 
-### Connect
+### Connect & Collaboration
 
 <div align="center">
 
-<a href="mailto:vandang890615@gmail.com">
-  <img src="https://img.shields.io/badge/Email-vandang890615%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/vandang890615">
-  <img src="https://img.shields.io/badge/GitHub-vandang890615-181717?style=flat-square&logo=github&logoColor=white" />
-</a>
+<p align="center">
+  <a href="mailto:vandang890615@gmail.com">
+    <img src="https://img.shields.io/badge/Email-vandang890615%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/vandang890615">
+    <img src="https://img.shields.io/badge/GitHub-vandang890615-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,24,35&height=90&section=footer" width="100%" />
+<p align="center">
+  <sub>Open to technical collaboration on CAD/BIM core engines, structural engineering automation, and high-performance computing.</sub>
+</p>
 
 </div>
