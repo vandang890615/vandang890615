@@ -25,7 +25,7 @@
 
 تمرکز بر تحلیل سازه‌های فولادی سنگین صنعتی و توسعه زیرساخت‌های نرم‌افزاری مهندسی:
 - **مهندسی سازه‌های فولادی:** طراحی و تهیه نقشه‌های شاپ‌دراوینگ سازه‌های صنعتی سنگین مطابق با استانداردهای AISC، Eurocode و TCVN؛ مدلسازی پیشرفته سازه‌ای سه‌بعدی و پارامتریک، طراحی اتصالات و بهینه‌سازی برش قطعات برای ماشین‌آلات CNC کارخانه.
-- **توسعه هسته CAD/BIM:** مشارکت در توسعه موتور گرافیکی و پردازش متون در نرم‌افزارهای متن‌باز CAD با زبان **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft))؛ ساخت موتور مستقل CAD بر پایه **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad))؛ و اتوماسیون فرایندهای نقشه‌کشی با پروتکل **MCP**.
+- **توسعه هسته CAD/BIM:** مشارکت در توسعه نرم‌افزارهای متن‌باز CAD/BIM با زبان‌های **Rust** و **Python** ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio))؛ ساخت موتور مستقل CAD بر پایه **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad))؛ و اتوماسیون فرایندهای نقشه‌کشی با پروتکل **MCP**.
 - **اتوماسیون و ابزارسازی:** توسعه سامانه‌های برنامه‌ریزی تولید کارخانجات اسکلت فلزی، استخراج خودکار لیستوفر (BOM) و برنامه‌نویسی با زبان‌های Python و AutoLISP.
 
 ---
@@ -38,9 +38,10 @@
 
 | Project | Pull Request | Contribution Details | Stack | Status |
 |:---|:---:|:---|:---:|:---:|
+| [**IngeTrazo**](https://github.com/ingelibre/ingetrazo) | [#936](https://github.com/ingelibre/ingetrazo/pull/936) | Integrated complete Vietnamese localization (3,036 UI strings) as 11th official language and Qt dialog translator fallback | `Python` `Qt/PySide6` `BIM/CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#5823](https://github.com/tangency-labs/solidcraft/pull/5823) | Caught up Vietnamese (`vi`) catalog for v0.24.0 (3,309 / 3,309 keys, 100% complete) and added `vi` to `COMPLETE` catalogs | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Resolved DXF MTEXT paragraph indentation and tab-stop displacement in drawing units | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Initial localized text resource bundle integration | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#5823](https://github.com/tangency-labs/solidcraft/pull/5823) | Complete Vietnamese (`vi`) localization catalog for v0.21.0 (2,385 / 2,385 keys) | `Rust` `3D CAD` `i18n` | ![CI Passed](https://img.shields.io/badge/CI%20Passed-2ea44f?style=flat-square&logo=githubactions&logoColor=white) |
 | [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#2915](https://github.com/tangency-labs/solidcraft/pull/2915) | Added Vietnamese (`vi`) localization support for pure Rust parametric 3D CAD | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 
 </div>

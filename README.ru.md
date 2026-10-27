@@ -23,7 +23,7 @@
 
 Специализация — тяжёлые промышленные конструкции и инженерное программное обеспечение:
 - **Проектирование металлоконструкций:** Расчёт и рабочая документация (КМ/КМД) по нормам AISC, Eurocode и TCVN; параметрическое трёхмерное моделирование строительных конструкций, расчёт узловых соединений и подготовка файлов ЧПУ для заводского раскроя.
-- **Разработка САПР/ТИМ:** Разработка компонентов графического ядра САПР на **Rust** ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)), создание легковесного движка САПР на платформе **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), автоматизация проектирования через протокол **MCP**.
+- **Разработка САПР/ТИМ:** Разработка компонентов САПР и ТИМ с открытым исходным кодом на **Rust** и **Python** ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), создание легковесного движка САПР на платформе **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), автоматизация проектирования через протокол **MCP**.
 - **Инженерная автоматизация:** Системы диспетчеризации цехового производства металлоконструкций, обработка ведомостей расхода материалов (BOM), скрипты на AutoLISP и Python.
 
 ---
@@ -34,9 +34,10 @@
 
 | Проект | Pull Request | Содержание изменений | Стек | Статус |
 |:---|:---:|:---|:---:|:---:|
+| [**IngeTrazo**](https://github.com/ingelibre/ingetrazo) | [#936](https://github.com/ingelibre/ingetrazo/pull/936) | Интеграция полной локализации интерфейса на вьетнамский язык (3 036 строк) в качестве 11-го официального языка и обработчик диалогов Qt | `Python` `Qt/PySide6` `BIM/CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#5823](https://github.com/tangency-labs/solidcraft/pull/5823) | Полная актуализация каталога локализации на вьетнамский язык для v0.24.0 (3 309 / 3 309 ключей, 100%) с включением в группу COMPLETE | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | Исправление расчёта отступов абзацев и позиций табуляции MTEXT в единицах чертежа DXF | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | Интеграция ресурсов локализации интерфейса Fluent | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#5823](https://github.com/tangency-labs/solidcraft/pull/5823) | Полная локализация интерфейса на вьетнамский язык для SolidCraft v0.21.0 (2,385 ключей) | `Rust` `3D CAD` `i18n` | ![CI Passed](https://img.shields.io/badge/CI%20Passed-2ea44f?style=flat-square&logo=githubactions&logoColor=white) |
 | [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#2915](https://github.com/tangency-labs/solidcraft/pull/2915) | Добавление поддержки вьетнамского языка (`vi`) для параметрической 3D САПР на Rust | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 
 ---
@@ -53,7 +54,7 @@
 #### САПР, ТИМ и инженерные системы
 | Категория | Открытые технологии и платформы | Основные технические компетенции |
 |:---|:---|:---|
-| **Ядра САПР** | SolidCraft, OpenCADStudio, FreeCAD, VNCAD | Рендеринг Rust WebGPU (wgpu), парсеры форматов DXF/DWG, архитектура САПР на .NET 10, AutoLISP |
+| **Ядра САПР** | SolidCraft, IngeTrazo, OpenCADStudio, FreeCAD, VNCAD | Рендеринг Rust WebGPU (wgpu), парсеры форматов DXF/DWG, архитектура САПР на .NET 10, AutoLISP |
 | **ТИМ и 3D-геометрия** | Open BIM (стандарт IFC), Blender 3D, Параметрическое моделирование | Трёхмерное моделирование конструкций, ведомости материалов BOM/BBS, файлы ЧПУ, вычислительная геометрия |
 | **Бэкенд и системы** | .NET 10, FastAPI, SQLite, PostgreSQL, Rust | Высокопроизводительные вычислительные движки, серверы MCP, протоколы автоматизации черчения |
 

@@ -23,7 +23,7 @@
 
 专注于重型工业钢结构工程与底层工程软件研发：
 - **钢结构工程:** 依据 AISC、Eurocode 及 TCVN 规范进行工业重型钢结构设计与深化图（Shop Drawing）设计；3D 参数化结构精细建模、节点连接验算以及工厂数控（CNC）切割套料。
-- **CAD/BIM 内核研发:** 为基于 **Rust** 的跨平台开源 CAD 渲染与几何核心 ([OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio), [SolidCraft](https://github.com/tangency-labs/solidcraft)) 贡献代码；研发基于 **.NET 10** 的专业 CAD 引擎 ([VNCAD](https://github.com/vandang890615/vncad))；探索基于 **MCP** 协议的 AI 辅助图纸自动化生成。
+- **CAD/BIM 内核研发:** 为基于 **Rust** 与 **Python** 的跨平台开源 CAD/BIM 核心 ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)) 贡献代码；研发基于 **.NET 10** 的专业 CAD 引擎 ([VNCAD](https://github.com/vandang890615/vncad))；探索基于 **MCP** 协议的 AI 辅助图纸自动化生成。
 - **工程自动化工具链:** 钢结构制造车间排产调度流水线、BOM 物料清单处理管道及 AutoLISP / Python 工程自动化脚本。
 
 ---
@@ -34,9 +34,10 @@
 
 | 仓库 (Repository) | 合并 PR | 贡献内容与影响 | 技术栈 | 状态 |
 |:---|:---:|:---|:---:|:---:|
+| [**IngeTrazo**](https://github.com/ingelibre/ingetrazo) | [#936](https://github.com/ingelibre/ingetrazo/pull/936) | 完整集成越南语本地化语言包（3,036 词条），使越南语成为其第 11 种官方语言并补齐 Qt 标准对话框按钮翻译 | `Python` `Qt/PySide6` `BIM/CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
+| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#5823](https://github.com/tangency-labs/solidcraft/pull/5823) | 全面更新 SolidCraft v0.24.0 越南语本地化目录（3,309 / 3,309 词条，100% 覆盖）并将 vi 纳入 COMPLETE 核心语言组 | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#2069](https://github.com/HakanSeven12/OpenCADStudio/pull/2069) | 修复 DXF 图纸中多行文本（MTEXT）段落缩进与制表符坐标的图元单位计算偏差 | `Rust` `CAD Engine` `DXF` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 | [**OpenCADStudio**](https://github.com/HakanSeven12/OpenCADStudio) | [#1960](https://github.com/HakanSeven12/OpenCADStudio/pull/1960) | 引入 Fluent 本地化多语言资源包 | `Rust` `Fluent i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
-| [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#5823](https://github.com/tangency-labs/solidcraft/pull/5823) | 完整补全 SolidCraft v0.21.0 越南语本地化语言包（2,385 词条，100% 覆盖） | `Rust` `3D CAD` `i18n` | ![CI Passed](https://img.shields.io/badge/CI%20Passed-2ea44f?style=flat-square&logo=githubactions&logoColor=white) |
 | [**SolidCraft**](https://github.com/tangency-labs/solidcraft) | [#2915](https://github.com/tangency-labs/solidcraft/pull/2915) | 为纯 Rust 参数化 3D CAD 软件新增越南语本地化支持 | `Rust` `3D CAD` `i18n` | ![Merged](https://img.shields.io/badge/Merged-8957E5?style=flat-square&logo=git&logoColor=white) |
 
 ---
