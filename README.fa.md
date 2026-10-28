@@ -60,9 +60,46 @@
 #### مهندسی سازه، CAD و BIM
 | حوزه | فناوری‌های متن‌باز و پلتفرم‌ها | محورهای تخصصی و شایستگی‌های فنی |
 |:---|:---|:---|
-| **موتورهای CAD** | SolidCraft, OpenCADStudio, FreeCAD, VNCAD | شتاب‌دهی گرافیکی Rust WebGPU (wgpu)، پردازش ساختار فایلی DXF/DWG، معماری CAD بر پایه .NET 10، اتولیسپ (AutoLISP) |
+| **موتورهای CAD** | SolidCraft, IngeTrazo, OpenCADStudio, FreeCAD, VNCAD | شتاب‌دهی گرافیکی Rust WebGPU (wgpu)، پردازش ساختار فایلی DXF/DWG، معماری CAD بر پایه .NET 10، اتولیسپ (AutoLISP) |
 | **مدلسازی BIM و هندسه 3D** | Open BIM (استاندارد IFC)، بلندر (Blender 3D)، مدلساز پارامتریک | مدلسازی سه‌بعدی سازه‌ای، استخراج خودکار لیستوفر و احجام (BOM/BBS)، پردازش داده‌های ماشین‌آلات CNC، محاسبات هندسی |
 | **بک‌اند و سیستم‌ها** | .NET 10, FastAPI, SQLite, PostgreSQL, Rust | موتورهای پردازش محاسباتی پرسرعت، پروتکل کانتکست مدل (MCP)، اتوماسیون فرایندهای ترسیم فنی |
+
+---
+
+### 🚰 فلسفه مهندسی: مدل ذهنی «خط لوله داده» (The Pipeline Mental Model)
+
+> *«یک مهندس سازه و تاسیسات، شبکه لوله‌های فیزیکی را برای کارکرد یک مجتمع صنعتی طراحی می‌کند؛ یک مهندس نرم‌افزار، خطوط لوله داده را برای گردش دنیای دیجیتال معماری می‌نماید.»*
+
+<details>
+<summary><b>فارسی: مدل ذهنی «خط لوله داده»——چرا همه چیز در دنیای فناوری در اصل «لوله» است؟</b></summary>
+<div dir="rtl">
+<br/>
+
+با تکیه بر پیشینه مهندسی سازه و تاسیسات مکانیکی (MEP)، سیستم‌های پیچیده نرم‌افزاری و موتورهای CAD را از طریق **«مدل ذهنی خط لوله»** معماری می‌کنم:
+
+#### 🗺️ جدول تطبیق لوله‌کشی فیزیکی با مهندسی نرم‌افزار
+
+<div dir="ltr">
+
+| 🏠 Physical Plumbing (Civil / MEP) | 💻 Software Engineering Equivalent | ⚙️ Real-World Implementation in My Work |
+| :--- | :--- | :--- |
+| **Water, Gas, Fluids** | **Data (Bytes, Vectors, Tokens)** | The raw substance flowing through memory and execution threads. |
+| **Indoor RAM Plumbing** | **Local Pipe (`stdio`, IPC, Shared Memory)** | Direct zero-latency communication between **MCP Servers** and CAD hosts (SolidCraft, VNCAD, IngeTrazo). |
+| **City Main Pipelines** | **Network Protocols (HTTP, WebSockets)** | Distributed synchronization between steel fabrication shops and central management server. |
+| **Armored Reinforced Pipes** | **Secure Tunneling (SSH, VPN, TLS/HTTPS)** | Encrypted transmission protecting proprietary engineering models and CNC cutting files. |
+| **Valves & Water Treatment** | **API Gateways & Ingestion Pipelines** | Stream verification and validation filters before processing 3D structural geometries. |
+| **Continuous Streaming Tap** | **Data Streams (`Readable` / `Writable`)** | Streaming massive structural BIM models & Tekla BOMs chunk-by-chunk without RAM bloating. |
+
+</div>
+
+#### 📐 ترجمه اصطلاحات پیچیده به معیارهای فیزیکی
+* **پروتکل (Protocol):** *استاندارد رزوه و اتصالات لوله.* دو سر لوله باید از نظر ابعاد و استاندارد رزوه (مانند JSON-RPC یا gRPC) دقیقاً همخوانی داشته باشند تا نشتی داده رخ ندهد.
+* **پهنای باند (Bandwidth):** *قطر دهانه لوله.* هر چه لوله قطورتر باشد، حجم مگابایت داده نقشه بیشتری در ثانیه عبور می‌کند.
+* **تاخیر (Latency):** *طول لوله.* مدت زمانی که طول می‌کشد تا اولین قطره داده فاصله فیزیکی بین فرستنده و گیرنده را طی کند.
+* **میراث فلسفه یونیکس (Unix Philosophy):** در دهه ۱۹۷۰ میلادی، سیستم‌عامل یونیکس عملگر خط عمودی `|` (Pipe) را معرفی کرد؛ اتصال خروجی یک برنامه مستقیماً به ورودی برنامه‌ای دیگر. امروزه استاندارد **MCP (Model Context Protocol)** دقیقا همین میراث را زنده کرده است.
+
+</div>
+</details>
 
 ---
 

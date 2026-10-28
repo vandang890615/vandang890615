@@ -138,6 +138,118 @@ Upstream contributions to core CAD & 3D geometry repositories:
 
 ---
 
+### 🚰 Engineering Philosophy: The "Pipeline" Mental Model
+
+> *“A civil/MEP engineer organizes physical piping to run a facility. A software engineer architectures data pipelines to run the modern digital world.”*
+
+<details>
+<summary><b>English: How Everything in Tech is Just "Pipes"</b></summary>
+<br/>
+
+Coming from a civil and mechanical (MEP) background into core CAD/BIM and system development, I visualize and architect all complex software through **The Pipeline Mental Model**:
+
+#### 🗺️ The Physical vs. Digital Plumbing Map
+
+| 🏠 Physical Plumbing (Civil / MEP) | 💻 Software Engineering Equivalent | ⚙️ Real-World Implementation in My Work |
+| :--- | :--- | :--- |
+| **Water, Gas, Fluids** | **Data (Bytes, Vectors, Tokens)** | The raw substance flowing through memory and execution threads. |
+| **Indoor RAM Plumbing** | **Local Pipe (`stdio`, IPC, Shared RAM)** | Direct zero-latency communication between **MCP Servers** and CAD hosts (SolidCraft, VNCAD, IngeTrazo). |
+| **City Main Pipelines** | **Network Protocols (HTTP, WebSockets)** | Distributed synchronization between steel fabrication shops and central management server. |
+| **Armored Reinforced Pipes** | **Secure Tunneling (SSH, VPN, TLS/HTTPS)** | Encrypted transmission protecting proprietary engineering models and CNC cutting files. |
+| **Valves & Water Treatment** | **API Gateways & Ingestion Pipelines** | Stream verification and validation filters before processing 3D structural geometries. |
+| **Continuous Streaming Tap** | **Data Streams (`Readable` / `Writable`)** | Streaming massive structural BIM models & Tekla BOMs chunk-by-chunk without RAM bloating. |
+
+#### 📐 Translating Complex Jargon into Physical Metrics
+* **Protocol:** *Pipe fittings & thread standards.* Both ends must match exact dimensions (JSON-RPC, REST, gRPC) to connect without leaks.
+* **Bandwidth:** *Pipe diameter.* How many megabytes of drawing data flow per second.
+* **Latency:** *Pipe length.* The transit time for the first byte to travel across the network wire.
+* **Unix Philosophy Heritage:** In the 1970s, UNIX pioneered `|` (the Pipe operator) — connecting the stdout of one program directly into the stdin of another. Today, the **Model Context Protocol (MCP)** inherits this exact philosophy.
+
+</details>
+
+<details>
+<summary><b>Tiếng Việt: Mọi thứ trong Công nghệ thực chất chỉ là "Đường Ống"</b></summary>
+<br/>
+
+Xuất phát từ nền tảng kỹ sư kết cấu & cơ điện công trình (MEP), tôi nhìn nhận và thiết kế kiến trúc phần mềm lõi thông qua mô hình tư duy **"Hệ thống Đường Ống"**:
+
+#### 🗺️ Đối Chiếu Hệ Thống Ống Vật Lý & Kỹ Thuật Phần Mềm
+
+| 🏠 Ống Vật Lý (Công Trình / MEP) | 💻 Khái Niệm Tương Đương Trong Phần Mềm | ⚙️ Ứng Dụng Thực Tế Trong Các Dự Án Của Tôi |
+| :--- | :--- | :--- |
+| **Nước, Khí gas, Dầu** | **Dữ liệu (Byte, Chuỗi ký tự, Vector, Token)** | Vật chất thô lưu chuyển trong bộ nhớ RAM và các luồng xử lý. |
+| **Đường ống cục bộ trong nhà** | **Ống cục bộ (`stdio`, IPC, Bộ nhớ dùng chung)** | Cách máy chủ **MCP** trao đổi dữ liệu trực tiếp với phần mềm CAD/BIM (SolidCraft, VNCAD, IngeTrazo) với độ trễ gần như bằng không. |
+| **Đường ống ngầm đô thị** | **Giao thức mạng (HTTP, WebSockets)** | Đồng bộ phân tán giữa các xưởng gia công kết cấu thép và máy chủ điều hành trung tâm. |
+| **Ống thép bọc giáp bảo vệ** | **Đường hầm mã hóa (SSH, VPN, TLS/HTTPS)** | Truyền tải bảo mật bảo vệ bản vẽ kết cấu chi tiết và tệp phôi gia công CNC. |
+| **Van điều tiết & Trạm lọc** | **API Gateway & Pipeline xử lý dữ liệu** | Lọc và xác thực tính toàn vẹn hình học trước khi đưa vào tính toán kết cấu. |
+| **Vòi nước chảy liên tục** | **Luồng dữ liệu (Data Stream: `Readable`/`Writable`)** | Truyền tải dữ liệu mô hình BIM và BOM Tekla nặng hàng trăm MB theo từng khối (chunk) vào RAM, chống tràn bộ nhớ. |
+
+#### 📐 Giải Mã Thuật Ngữ Kỹ Thuật Bằng Khái Niệm Vật Lý
+* **Giao thức (Protocol):** *Mối nối ren và khớp tiêu chuẩn của ống.* Hai đầu nối bắt buộc phải khớp ren (JSON-RPC, REST, gRPC) mới không bị rò rỉ dữ liệu.
+* **Băng thông (Bandwidth):** *Đường kính ống.* Đường kính càng rộng thì lưu lượng megabyte bản vẽ truyền tải mỗi giây càng lớn.
+* **Độ trễ (Latency):** *Chiều dài đường ống.* Khoảng thời gian để giọt nước đầu tiên di chuyển từ đầu phát đến đầu thu qua khoảng cách vật lý.
+* **Di sản Triết lý Unix:** Thập niên 1970, UNIX phát minh ký tự gạch đứng `|` (Pipe operator) — nối trực tiếp đầu ra (stdout) của chương trình này vào đầu vào (stdin) của chương trình khác. Ngày nay, **Model Context Protocol (MCP)** kế thừa trọn vẹn triết lý kinh điển này.
+
+</details>
+
+<details>
+<summary><b>中文：工程架构哲学——为什么技术世界本质都是“管道”？</b></summary>
+<br/>
+
+源于工业重型钢结构与机电工程（MEP）的工程实践背景，我将底层软件系统抽象为高度直观的 **“管道工程心智模型”**：
+
+#### 🗺️ 物理管网与软件工程映射图谱
+
+| 🏠 物理管网 (土木 / 机电 MEP) | 💻 软件工程等价概念 | ⚙️ 实际工程项目落地实践 |
+| :--- | :--- | :--- |
+| **水、气体、流体** | **数据 (字节流、文本、向量、Token)** | 在内存堆栈与计算线程中流动的原始物质。 |
+| **建筑室内管道** | **本地管道 (`stdio`, IPC, 共享内存)** | 本地 **MCP 服务器** 与宿主 CAD/BIM 软件（SolidCraft、VNCAD、IngeTrazo）实现零网络开销毫秒级指令通信。 |
+| **市政地下主干管网** | **网络通信协议 (HTTP, WebSockets)** | 钢结构制造车间排产调度终端与云端控制中心之间的分布式数据同步。 |
+| **高承压装甲加固管道** | **加密通信隧道 (SSH, VPN, TLS/HTTPS)** | 加密保障工业 Shop Drawing 详图资产及 CNC 数控套料数据在传输中防窃听防篡改。 |
+| **调压阀门与净水处理站** | **API 网关与数据清洗管道** | 在复杂 3D 几何拓扑解算前进行动态流控拦截与数据模型验证。 |
+| **持续流淌的自来水龙头** | **数据流式传输 (`Readable` / `Writable`)** | 对几百兆的重型 BIM 几何模型与 Tekla BOM 物料清单进行流式按需加载，彻底避免内存溢出 (OOM)。 |
+
+#### 📐 用工程物理指标拆解抽象术语
+* **协议 (Protocol)：** *管道螺纹与法兰标准。* 接口两端必须具备完全匹配的口径规格与螺纹参数（如 JSON-RPC、REST、gRPC），流体才不会泄漏。
+* **带宽 (Bandwidth)：** *管道内径截面。* 管道越粗，每秒流过的工程图纸数据通量（MB/s）就越大。
+* **延迟 (Latency)：** *管道物理长度。* 第一滴水跨越地理距离流抵出水端所需的物理耗时。
+* **Unix 管道哲学传承：** 1970 年代，UNIX 创始人发明了竖线 `|`（管道操作符），将前一个程序的输出无缝注入后一个程序的输入。今天大火的 **Model Context Protocol (MCP)** 正是这一哲学的原生继承者。
+
+</details>
+
+<details>
+<summary><b>فارسی: مدل ذهنی «خط لوله داده»——چرا همه چیز در دنیای فناوری در اصل «لوله» است؟</b></summary>
+<div dir="rtl">
+<br/>
+
+با تکیه بر پیشینه مهندسی سازه و تاسیسات مکانیکی (MEP)، سیستم‌های پیچیده نرم‌افزاری و موتورهای CAD را از طریق **«مدل ذهنی خط لوله»** معماری می‌کنم:
+
+#### 🗺️ جدول تطبیق لوله‌کشی فیزیکی با مهندسی نرم‌افزار
+
+<div dir="ltr">
+
+| 🏠 Physical Plumbing (Civil / MEP) | 💻 Software Engineering Equivalent | ⚙️ Real-World Implementation in My Work |
+| :--- | :--- | :--- |
+| **Water, Gas, Fluids** | **Data (Bytes, Vectors, Tokens)** | The raw substance flowing through memory and execution threads. |
+| **Indoor RAM Plumbing** | **Local Pipe (`stdio`, IPC, Shared Memory)** | Direct zero-latency communication between **MCP Servers** and CAD hosts (SolidCraft, VNCAD, IngeTrazo). |
+| **City Main Pipelines** | **Network Protocols (HTTP, WebSockets)** | Distributed synchronization between steel fabrication shops and central management server. |
+| **Armored Reinforced Pipes** | **Secure Tunneling (SSH, VPN, TLS/HTTPS)** | Encrypted transmission protecting proprietary engineering models and CNC cutting files. |
+| **Valves & Water Treatment** | **API Gateways & Ingestion Pipelines** | Stream verification and validation filters before processing 3D structural geometries. |
+| **Continuous Streaming Tap** | **Data Streams (`Readable` / `Writable`)** | Streaming massive structural BIM models & Tekla BOMs chunk-by-chunk without RAM bloating. |
+
+</div>
+
+#### 📐 ترجمه اصطلاحات پیچیده به معیارهای فیزیکی
+* **پروتکل (Protocol):** *استاندارد رزوه و اتصالات لوله.* دو سر لوله باید از نظر ابعاد و استاندارد رزوه (مانند JSON-RPC یا gRPC) دقیقاً همخوانی داشته باشند تا نشتی داده رخ ندهد.
+* **پهنای باند (Bandwidth):** *قطر دهانه لوله.* هر چه لوله قطورتر باشد، حجم مگابایت داده نقشه بیشتری در ثانیه عبور می‌کند.
+* **تاخیر (Latency):** *طول لوله.* مدت زمانی که طول می‌کشد تا اولین قطره داده فاصله فیزیکی بین فرستنده و گیرنده را طی کند.
+* **میراث فلسفه یونیکس (Unix Philosophy):** در دهه ۱۹۷۰ میلادی، سیستم‌عامل یونیکس عملگر خط عمودی `|` (Pipe) را معرفی کرد؛ اتصال خروجی یک برنامه مستقیماً به ورودی برنامه‌ای دیگر. امروزه استاندارد **MCP (Model Context Protocol)** دقیقا همین میراث را زنده کرده است.
+
+</div>
+</details>
+
+---
+
 ### Featured Engineering Projects & Architecture
 
 Core engineering engines, automation pipelines, and technical systems designed and developed:
