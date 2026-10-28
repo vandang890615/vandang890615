@@ -19,18 +19,18 @@
 
 ### Giới Thiệu
 
-**Văn Đăng** — Kỹ sư Kết cấu & Kỹ sư Phát triển Lõi CAD/BIM.
+**Văn Đăng** — Kỹ sư Kết cấu & Tự động hóa CAD/BIM.
 
 Lĩnh vực chuyên môn trọng tâm:
 - **Kỹ thuật Kết cấu:** Thiết kế & lập bản vẽ chi tiết (Shop Drawing) kết cấu thép công nghiệp nặng theo tiêu chuẩn AISC, Eurocode, TCVN; mô hình hóa kết cấu 3D tham số, thiết kế liên kết và chuẩn bị dữ liệu phôi cắt CNC.
-- **Phát triển Lõi CAD/BIM:** Đóng góp cho hệ sinh thái CAD/BIM mã nguồn mở bằng **Rust** và **Python** ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), phát triển engine CAD hiệu năng cao trên nền tảng **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), và tự động hóa quy trình vẽ kỹ thuật qua giao thức **MCP (Model Context Protocol)**.
+- **Tự động hóa & Phần mềm CAD/BIM:** Đóng góp mở rộng cho các dự án CAD/BIM quốc tế ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) — chuẩn hóa hiển thị văn bản DXF, hoàn thiện bản địa hóa TCVN), tự phát triển engine CAD 2D chuyên dụng cho kết cấu trên nền tảng **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), và tiên phong tự động hóa bản vẽ kỹ thuật qua giao thức **MCP (Model Context Protocol)**.
 - **Công cụ Kỹ thuật & Hạ tầng:** Xây dựng hệ thống điều độ sản xuất chế tạo thép, đường ống xử lý dữ liệu vật tư (BOM), và các tập lệnh tự động hóa bằng AutoLISP / Python.
 
 ---
 
 ### Đóng Góp Mã Nguồn Mở
 
-Đóng góp vào các dự án lõi CAD & hình học 3D quốc tế:
+Đóng góp cho các dự án CAD/BIM mã nguồn mở quốc tế:
 
 | Dự Án | Pull Request | Chi Tiết Đóng Góp | Công Nghệ | Trạng Thái |
 |:---|:---:|:---|:---:|:---:|
@@ -54,7 +54,7 @@ Lĩnh vực chuyên môn trọng tâm:
 #### Kỹ thuật Kết cấu & CAD/BIM
 | Lĩnh vực | Nền tảng & Công nghệ mở | Năng lực Kỹ thuật cốt lõi |
 |:---|:---|:---|
-| **Lõi CAD** | SolidCraft, IngeTrazo, OpenCADStudio, FreeCAD, VNCAD | Tăng tốc đồ họa Rust WebGPU (wgpu), bộ phân tích định dạng DXF/DWG, kiến trúc CAD trên .NET 10, AutoLISP scripting |
+| **Phát triển CAD/BIM** | VNCAD (.NET 10), SolidCraft, IngeTrazo, OpenCADStudio, FreeCAD | Tự kiến trúc engine CAD 2D trên .NET 10, xử lý định dạng DXF, lập trình AutoLISP, đóng góp mã nguồn mở (sửa lỗi MTEXT DXF & bản địa hóa i18n) |
 | **BIM & Hình học 3D** | Open BIM (chuẩn IFC), Blender 3D, Parametric Modeler | Mô hình hóa kết cấu 3D, tự động trích xuất bảng kê BOM/BBS, xử lý dữ liệu phôi cắt CNC, thuật toán hình học tính toán |
 | **Hệ thống & Backend** | .NET 10, FastAPI, SQLite, PostgreSQL, Rust | Engine tính toán hiệu năng cao, giao thức Model Context Protocol (MCP), tự động hóa bản vẽ kỹ thuật |
 

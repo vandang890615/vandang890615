@@ -7,7 +7,7 @@
 
 <!-- 5-Language Typing Animation (EN, VI, RU, ZH, FA) -->
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=580&lines=Structural%20Engineer%20%26%20CAD/BIM%20Developer%20%F0%9F%8F%97%EF%B8%8F%3BK%E1%BB%B9%20s%C6%B0%20K%E1%BA%BFt%20c%E1%BA%A5u%20%26%20Ph%C3%A1t%20tri%E1%BB%83n%20l%C3%B5i%20CAD/BIM%3B%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80-%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%26%20%D0%A1%D0%90%D0%9F%D0%A0%20%28Rust%2C%20.NET%29%3B%E9%92%A2%E7%BB%93%E6%9E%84%E5%B7%A5%E7%A8%8B%E5%B8%88%20%26%20CAD/BIM%E5%86%85%E6%A0%B8%E5%BC%80%E5%8F%91%3B%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%B3%D8%A7%D8%B2%D9%87%20%D9%88%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%E2%80%8C%D8%AF%D9%87%D9%86%D8%AF%D9%87%20CAD/BIM" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=00D2FF&center=true&vCenter=true&width=580&lines=Structural%20Engineer%20%26%20CAD/BIM%20Developer%20%F0%9F%8F%97%EF%B8%8F%3BK%E1%BB%B9%20s%C6%B0%20K%E1%BA%BFt%20c%E1%BA%A5u%20%26%20T%E1%BB%B1%20%C4%91%E1%BB%99ng%20h%C3%B3a%20CAD/BIM%3B%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80-%D1%81%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%26%20%D0%A1%D0%90%D0%9F%D0%A0%20%28Rust%2C%20.NET%29%3B%E9%92%A2%E7%BB%93%E6%9E%84%E5%B7%A5%E7%A8%8B%E5%B8%88%20%26%20CAD/BIM%E5%86%85%E6%A0%B8%E5%BC%80%E5%8F%91%3B%D9%85%D9%87%D9%86%D8%AF%D8%B3%20%D8%B3%D8%A7%D8%B2%D9%87%20%D9%88%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%E2%80%8C%D8%AF%D9%87%D9%86%D8%AF%D9%87%20CAD/BIM" alt="Typing SVG" />
 </a>
 
 <!-- Language Quick Links -->
@@ -31,11 +31,11 @@
 <details open>
 <summary><b id="-about-me-english">About (English)</b></summary>
 
-**Van Dang** — Structural Engineer & CAD/BIM Core Developer.
+**Van Dang** — Structural Engineer & CAD/BIM Detailing Automation.
 
 Focused on heavy industrial steel structures and engineering software infrastructure:
 - **Structural Engineering:** Industrial steel structure design (AISC, Eurocode, TCVN), 3D parametric structural modeling, connection detailing, and CNC fabrication preparation.
-- **CAD/BIM Development:** Contributing to open-source CAD/BIM ecosystems in **Rust** and **Python** ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), developing high-performance **.NET 10** CAD engines ([VNCAD](https://github.com/vandang890615/vncad)), and protocol-driven drafting automation via **MCP (Model Context Protocol)**.
+- **CAD/BIM Tooling & Open Source:** Upstream contributor to international CAD/BIM projects ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) — DXF text handling, full Vietnamese engineering localization), authoring the specialized 2D structural CAD engine [VNCAD](https://github.com/vandang890615/vncad) on **.NET 10**, and implementing drafting automation via **MCP (Model Context Protocol)**.
 - **Tooling & Infrastructure:** Fabrication shop dispatching systems, bill of materials (BOM) pipelines, and AutoLISP/Python automation.
 
 </details>
@@ -43,11 +43,11 @@ Focused on heavy industrial steel structures and engineering software infrastruc
 <details>
 <summary><b id="-giới-thiệu-tiếng-việt">Giới thiệu (Tiếng Việt)</b></summary>
 
-**Văn Đăng** — Kỹ sư Kết cấu & Kỹ sư Phát triển Lõi CAD/BIM.
+**Văn Đăng** — Kỹ sư Kết cấu & Tự động hóa CAD/BIM.
 
 Lĩnh vực chuyên môn trọng tâm:
 - **Kỹ thuật Kết cấu:** Thiết kế & lập bản vẽ chi tiết (Shop Drawing) kết cấu thép công nghiệp nặng theo tiêu chuẩn AISC, Eurocode, TCVN; mô hình hóa kết cấu 3D tham số, thiết kế liên kết và chuẩn bị dữ liệu phôi cắt CNC.
-- **Phát triển Lõi CAD/BIM:** Đóng góp cho hệ sinh thái CAD/BIM mã nguồn mở bằng **Rust** và **Python** ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)), phát triển engine CAD hiệu năng cao trên nền tảng **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), và tự động hóa quy trình vẽ kỹ thuật qua giao thức **MCP (Model Context Protocol)**.
+- **Tự động hóa & Phần mềm CAD/BIM:** Đóng góp mở rộng cho các dự án CAD/BIM quốc tế ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) — chuẩn hóa hiển thị văn bản DXF, hoàn thiện bản địa hóa TCVN), tự phát triển engine CAD 2D chuyên dụng cho kết cấu trên nền tảng **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad)), và tiên phong tự động hóa bản vẽ kỹ thuật qua giao thức **MCP (Model Context Protocol)**.
 - **Công cụ Kỹ thuật & Hạ tầng:** Xây dựng hệ thống điều độ sản xuất chế tạo thép, đường ống xử lý dữ liệu vật tư (BOM), và các tập lệnh tự động hóa bằng AutoLISP / Python.
 
 </details>
@@ -85,7 +85,7 @@ Lĩnh vực chuyên môn trọng tâm:
 
 تمرکز بر تحلیل سازه‌های فولادی سنگین صنعتی و توسعه زیرساخت‌های نرم‌افزاری مهندسی:
 - **مهندسی سازه‌های فولادی:** طراحی و تهیه نقشه‌های شاپ‌دراوینگ سازه‌های صنعتی سنگین مطابق با استانداردهای AISC، Eurocode و TCVN؛ مدلسازی پیشرفته سازه‌ای سه‌بعدی و پارامتریک، طراحی اتصالات و بهینه‌سازی برش قطعات برای ماشین‌آلات CNC کارخانه.
-- **توسعه هسته CAD/BIM:** مشارکت در توسعه نرم‌افزارهای متن‌باز CAD/BIM با زبان‌های **Rust** و **Python** ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio))؛ ساخت موتور مستقل CAD بر پایه **.NET 10** ([VNCAD](https://github.com/vandang890615/vncad))؛ و اتوماسیون فرایندهای نقشه‌کشی با پروتکل **MCP**.
+- **اتوماسیون CAD/BIM و مشارکت متن‌باز:** مشارکت بالادستی در پروژه‌های بین‌المللی CAD/BIM ([SolidCraft](https://github.com/tangency-labs/solidcraft)، [IngeTrazo](https://github.com/ingelibre/ingetrazo)، [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) — اصلاح محاسبات متنی DXF و بومی‌سازی مهندسی)؛ توسعه موتور اختصاصی [VNCAD](https://github.com/vandang890615/vncad) بر پایه **.NET 10**؛ و اتوماسیون فرایندهای نقشه‌کشی با پروتکل **MCP**.
 - **اتوماسیون و ابزارسازی:** توسعه سامانه‌های برنامه‌ریزی تولید کارخانجات اسکلت فلزی، استخراج خودکار لیستوفر (BOM) و برنامه‌نویسی با زبان‌های Python و AutoLISP.
 
 </div>
@@ -108,7 +108,7 @@ Lĩnh vực chuyên môn trọng tâm:
 
 ### Open-Source Contributions
 
-Upstream contributions to core CAD & 3D geometry repositories:
+Upstream contributions to international CAD/BIM projects:
 
 | Project | Pull Request | Contribution Details | Stack | Status |
 |:---|:---:|:---|:---:|:---:|
@@ -132,7 +132,7 @@ Upstream contributions to core CAD & 3D geometry repositories:
 #### Engineering & Detailing
 | Domain | Open Tech & Frameworks | Technical Competencies |
 |:---|:---|:---|
-| **CAD Core** | SolidCraft, IngeTrazo, OpenCADStudio, FreeCAD, VNCAD | Rust GPU rendering (wgpu), DXF/DWG format parsers, .NET 10 CAD architecture, AutoLISP automation |
+| **CAD Tooling & Development** | VNCAD (.NET 10), SolidCraft, IngeTrazo, OpenCADStudio, FreeCAD | Architecture of 2D CAD engines in .NET 10, DXF format handling, AutoLISP automation, upstream open-source contributions (DXF fix & i18n) |
 | **BIM & 3D Geometry** | Open BIM (IFC), Blender 3D, Parametric Modeler | 3D structural modeling, automated BOM/BBS generation, CNC nesting data pipelines, geometric computation |
 | **Backend & Tooling** | .NET 10, FastAPI, SQLite, PostgreSQL, Rust | High-performance calculation engines, Model Context Protocol (MCP), CAD/BIM automation protocols |
 

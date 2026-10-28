@@ -19,18 +19,18 @@
 
 ### 个人简介
 
-**范登 (Van Dang)** — 结构工程师 / CAD与BIM内核开发工程师。
+**范登 (Van Dang)** — 结构工程师 / CAD与BIM工程软件研发。
 
 专注于重型工业钢结构工程与底层工程软件研发：
 - **钢结构工程:** 依据 AISC、Eurocode 及 TCVN 规范进行工业重型钢结构设计与深化图（Shop Drawing）设计；3D 参数化结构精细建模、节点连接验算以及工厂数控（CNC）切割套料。
-- **CAD/BIM 内核研发:** 为基于 **Rust** 与 **Python** 的跨平台开源 CAD/BIM 核心 ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio)) 贡献代码；研发基于 **.NET 10** 的专业 CAD 引擎 ([VNCAD](https://github.com/vandang890615/vncad))；探索基于 **MCP** 协议的 AI 辅助图纸自动化生成。
+- **CAD/BIM 软件与开源贡献:** 为国际开源 CAD/BIM 项目贡献代码与工程本地化支持 ([SolidCraft](https://github.com/tangency-labs/solidcraft), [IngeTrazo](https://github.com/ingelibre/ingetrazo), [OpenCADStudio](https://github.com/HakanSeven12/OpenCADStudio) —— DXF 文本格式解析与 TCVN 规范词条全覆盖)；自主研发基于 **.NET 10** 的轻量级结构专业 2D CAD 引擎 ([VNCAD](https://github.com/vandang890615/vncad))；探索基于 **MCP** 协议的工程图纸自动化生成。
 - **工程自动化工具链:** 钢结构制造车间排产调度流水线、BOM 物料清单处理管道及 AutoLISP / Python 工程自动化脚本。
 
 ---
 
 ### 开源项目贡献 (Open-Source Impact)
 
-为国际 CAD 核心和 3D 几何算法库贡献核心代码：
+参与国际开源 CAD/BIM 项目的贡献记录：
 
 | 仓库 (Repository) | 合并 PR | 贡献内容与影响 | 技术栈 | 状态 |
 |:---|:---:|:---|:---:|:---:|
