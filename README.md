@@ -226,18 +226,14 @@ Xuất phát từ nền tảng kỹ sư kết cấu & cơ điện công trình (
 
 #### 🗺️ جدول تطبیق لوله‌کشی فیزیکی با مهندسی نرم‌افزار
 
-<div dir="ltr">
-
-| 🏠 Physical Plumbing (Civil / MEP) | 💻 Software Engineering Equivalent | ⚙️ Real-World Implementation in My Work |
+| 🏠 لوله‌کشی فیزیکی (عمران / تاسیسات MEP) | 💻 معادل در مهندسی نرم‌افزار | ⚙️ پیاده‌سازی واقعی در پروژه‌های من |
 | :--- | :--- | :--- |
-| **Water, Gas, Fluids** | **Data (Bytes, Vectors, Tokens)** | The raw substance flowing through memory and execution threads. |
-| **Indoor RAM Plumbing** | **Local Pipe (`stdio`, IPC, Shared Memory)** | Direct zero-latency communication between **MCP Servers** and CAD hosts (SolidCraft, VNCAD, IngeTrazo). |
-| **City Main Pipelines** | **Network Protocols (HTTP, WebSockets)** | Distributed synchronization between steel fabrication shops and central management server. |
-| **Armored Reinforced Pipes** | **Secure Tunneling (SSH, VPN, TLS/HTTPS)** | Encrypted transmission protecting proprietary engineering models and CNC cutting files. |
-| **Valves & Water Treatment** | **API Gateways & Ingestion Pipelines** | Stream verification and validation filters before processing 3D structural geometries. |
-| **Continuous Streaming Tap** | **Data Streams (`Readable` / `Writable`)** | Streaming massive structural BIM models & Tekla BOMs chunk-by-chunk without RAM bloating. |
-
-</div>
+| **آب، گاز، سیالات صنعتی** | **داده‌ها (بایت، بردار، متن، توکن)** | ماده خام و بنیادین جاری در حافظه RAM و رشته‌های پردازشی. |
+| **لوله‌کشی داخلی ساختمان** | **لوله محلی (`stdio`، IPC، حافظه اشتراکی)** | ارتباط مستقیم و بدون تاخیر میان سرورهای **MCP** و نرم‌افزارهای میزبان CAD/BIM (مانند SolidCraft، VNCAD، IngeTrazo). |
+| **شبکه خطوط لوله اصلی شهری** | **پروتکل‌های ارتباطی شبکه (HTTP، WebSockets)** | همگام‌سازی توزیع‌شده میان کارگاه‌های ساخت سازه فولادی و سرور کنترل مرکزی. |
+| **لوله‌های فولادی زره‌پوش و تقویت‌شده** | **تونل‌زنی امن داده (SSH، VPN، TLS/HTTPS)** | انتقال رمزگذاری‌شده جهت حفاظت از نقشه‌های شاپ‌دراوینگ سازه و داده‌های برش CNC. |
+| **شیرهای تنظیم فشار و تصفیه‌خانه** | **درگاه API و پایپ‌لاین‌های اعتبارسنجی داده** | پالایش و فیلتر جریان داده جهت تایید صحت هندسه سه‌بعدی پیش از محاسبات سنگین سازه‌ای. |
+| **جریان پیوسته شیر آب** | **جریان‌سازی داده‌ها (`Readable` / `Writable`)** | بارگذاری جریانی و تکه‌تکه مدل‌های حجیم BIM و فایل‌های لیستوفر Tekla در RAM بدون مسدودسازی حافظه. |
 
 #### 📐 ترجمه اصطلاحات پیچیده به معیارهای فیزیکی
 * **پروتکل (Protocol):** *استاندارد رزوه و اتصالات لوله.* دو سر لوله باید از نظر ابعاد و استاندارد رزوه (مانند JSON-RPC یا gRPC) دقیقاً همخوانی داشته باشند تا نشتی داده رخ ندهد.
