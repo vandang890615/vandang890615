@@ -65,27 +65,44 @@ Lĩnh vực chuyên môn trọng tâm:
 > *“Kỹ sư công trình sắp đặt hệ thống ống vật lý để vận hành một nhà máy. Kỹ sư phần mềm kiến trúc hệ thống đường ống dữ liệu để vận hành thế giới số.”*
 
 <details>
-<summary><b>Tiếng Việt: Mọi thứ trong Công nghệ thực chất chỉ là "Đường Ống"</b></summary>
+<summary><b>Tiếng Việt: Mọi thứ trong Công nghệ thực chất là một "Hệ Thống Đường Ống"</b></summary>
 <br/>
 
-Xuất phát từ nền tảng kỹ sư kết cấu & cơ điện công trình (MEP), tôi nhìn nhận và thiết kế kiến trúc phần mềm lõi thông qua mô hình tư duy **"Hệ thống Đường Ống"**:
+Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). Khi thiết kế kiến trúc phần mềm lõi, tôi nhận ra mình đang làm đúng việc cũ: đưa “chất lỏng” từ nơi này đến nơi khác, đúng lưu lượng, đúng áp suất, không rò rỉ, có van khóa khi sự cố. Chỉ khác là chất lỏng bây giờ là dữ liệu.
 
-#### 🗺️ Đối Chiếu Hệ Thống Ống Vật Lý & Kỹ Thuật Phần Mềm
+#### 🗺️ Đối chiếu hệ thống ống vật lý và kỹ thuật phần mềm
 
-| 🏠 Ống Vật Lý (Công Trình / MEP) | 💻 Khái Niệm Tương Đương Trong Phần Mềm | ⚙️ Ứng Dụng Thực Tế Trong Các Dự Án Của Tôi |
+| 🏠 Ống vật lý (Công trình / MEP) | 💻 Khái niệm tương đương trong phần mềm | ⚙️ Ứng dụng thực tế trong các dự án của tôi |
 | :--- | :--- | :--- |
-| **Nước, Khí gas, Dầu** | **Dữ liệu (Byte, Chuỗi ký tự, Vector, Token)** | Vật chất thô lưu chuyển trong bộ nhớ RAM và các luồng xử lý. |
-| **Đường ống cục bộ trong nhà** | **Ống cục bộ (`stdio`, IPC, Bộ nhớ dùng chung)** | Cách máy chủ **MCP** trao đổi dữ liệu trực tiếp với phần mềm CAD/BIM (SolidCraft, VNCAD, IngeTrazo) với độ trễ gần như bằng không. |
+| **Nước, khí gas, dầu** | **Dữ liệu (byte, chuỗi ký tự, vector, token)** | Vật chất thô lưu chuyển trong RAM và các luồng xử lý. |
+| **Đường ống cục bộ trong nhà** | **Ống cục bộ (`stdio`, IPC, bộ nhớ dùng chung)** | Máy chủ MCP trao đổi dữ liệu trực tiếp với phần mềm CAD/BIM (SolidCraft, VNCAD, IngeTrazo) với độ trễ cực thấp. |
 | **Đường ống ngầm đô thị** | **Giao thức mạng (HTTP, WebSockets)** | Đồng bộ phân tán giữa các xưởng gia công kết cấu thép và máy chủ điều hành trung tâm. |
-| **Ống thép bọc giáp bảo vệ** | **Đường hầm mã hóa (SSH, VPN, TLS/HTTPS)** | Truyền tải bảo mật bảo vệ bản vẽ kết cấu chi tiết và tệp phôi gia công CNC. |
-| **Van điều tiết & Trạm lọc** | **API Gateway & Pipeline xử lý dữ liệu** | Lọc và xác thực tính toàn vẹn hình học trước khi đưa vào tính toán kết cấu. |
-| **Vòi nước chảy liên tục** | **Luồng dữ liệu (Data Stream: `Readable`/`Writable`)** | Truyền tải dữ liệu mô hình BIM và BOM Tekla nặng hàng trăm MB theo từng khối (chunk) vào RAM, chống tràn bộ nhớ. |
+| **Ống thép bọc giáp bảo vệ** | **Đường hầm mã hóa (SSH, VPN, TLS/HTTPS)** | Truyền tải bảo mật cho bản vẽ kết cấu chi tiết và tệp phôi gia công CNC. |
+| **Van điều tiết & trạm lọc** | **API Gateway & pipeline xử lý dữ liệu** | Lọc và xác thực tính toàn vẹn hình học trước khi đưa vào tính toán kết cấu. |
+| **Vòi nước chảy liên tục** | **Luồng dữ liệu (Data Stream: `Readable`/`Writable`)** | Truyền mô hình BIM và BOM Tekla nặng hàng trăm MB theo từng khối (chunk) vào RAM, chống tràn bộ nhớ. |
 
-#### 📐 Giải Mã Thuật Ngữ Kỹ Thuật Bằng Khái Niệm Vật Lý
-* **Giao thức (Protocol):** *Mối nối ren và khớp tiêu chuẩn của ống.* Hai đầu nối bắt buộc phải khớp ren (JSON-RPC, REST, gRPC) mới không bị rò rỉ dữ liệu.
-* **Băng thông (Bandwidth):** *Đường kính ống.* Đường kính càng rộng thì lưu lượng megabyte bản vẽ truyền tải mỗi giây càng lớn.
-* **Độ trễ (Latency):** *Chiều dài đường ống.* Khoảng thời gian để giọt nước đầu tiên di chuyển từ đầu phát đến đầu thu qua khoảng cách vật lý.
-* **Di sản Triết lý Unix:** Thập niên 1970, UNIX phát minh ký tự gạch đứng `|` (Pipe operator) — nối trực tiếp đầu ra (stdout) của chương trình này vào đầu vào (stdin) của chương trình khác. Ngày nay, **Model Context Protocol (MCP)** kế thừa trọn vẹn triết lý kinh điển này.
+#### 🔧 Đường ống thì cần thiết bị trên tuyến
+
+Ống chỉ vận chuyển. Một hệ thống hoàn chỉnh còn có những thiết bị trên tuyến:
+
+| 🏠 Thiết bị trên tuyến (MEP / Công trình) | 💻 Tương đương trong phần mềm | ⚙️ Ví dụ thực tế trong xưởng chế tạo kết cấu |
+| :--- | :--- | :--- |
+| **Bể chứa** | **Cơ sở dữ liệu, bộ nhớ lưu trữ** | Kho BOM master, tồn kho vật tư thép, tiến độ sản xuất. |
+| **Máy bơm** | **CPU/GPU, worker xử lý** | Tiến trình tính toán kết cấu, bóc tách khối lượng tự động. |
+| **Bể đệm (Surge Tank)** | **Hàng đợi, buffer (Queue)** | Xếp hàng các tệp bản vẽ chờ xử lý, không để hệ thống bị quá tải. |
+| **Đồng hồ đo lưu lượng** | **Giám sát, log (Monitoring, Telemetry)** | Theo dõi hệ thống đang xử lý bao nhiêu, nghẽn ở đâu. |
+| **Van một chiều** | **Giới hạn tốc độ (Rate Limiting) & Chặn ngược** | Chặn dữ liệu chảy ngược hoặc dồn dập vào một cổng. |
+| **Van an toàn** | **Cầu dao tự ngắt (Circuit Breaker)** | Tự ngắt tuyến khi một dịch vụ hỏng để lỗi không lan ra toàn hệ thống. |
+
+#### 📐 Giải mã thuật ngữ kỹ thuật bằng khái niệm vật lý
+* **Giao thức (Protocol):** *Mối nối ren và khớp tiêu chuẩn của ống.* Hai đầu nối phải khớp ren (JSON-RPC, REST, gRPC) thì dữ liệu mới không rò rỉ.
+* **Băng thông (Bandwidth):** *Đường kính ống.* Ống càng lớn thì mỗi giây truyền được càng nhiều megabyte bản vẽ.
+* **Độ trễ (Latency):** *Chiều dài ống.* Thời gian giọt nước đầu tiên đi từ đầu phát đến đầu thu, phụ thuộc vào chiều dài ống và số trạm van phải đi qua.
+* **Áp suất ngược (Backpressure):** *Dồn áp suất.* Khi đầu nhận xử lý chậm, áp suất dồn ngược về đầu phát để giảm lưu lượng. Đây chính là cơ chế giúp luồng dữ liệu hàng trăm MB không làm tràn bộ nhớ.
+* **Rò rỉ và tắc nghẽn:** Rò rỉ bộ nhớ (*Memory Leak*) là ống thất thoát âm thầm; tắc nghẽn (*Deadlock*) là hai đầu van chờ nhau mãi, không bên nào xả.
+* **🧬 Di sản triết lý Unix & MCP:** Thập niên 1970, UNIX phát minh ký tự gạch đứng `|` (Pipe operator), nối `stdout` chương trình này vào `stdin` chương trình khác. Ngày nay, **Model Context Protocol (MCP)** qua chế độ `stdio` chính là một đường ống dữ liệu trực tiếp: các thông điệp JSON-RPC truyền qua `stdin`/`stdout` giữa ứng dụng AI và phần mềm CAD.
+
+> *🎯 Kết: Kỹ sư MEP không cần hiểu từng phân tử nước. Họ cần hiểu áp suất, lưu lượng, mối nối, van và bể chứa. Kiến trúc phần mềm cũng vậy: hiểu dòng chảy thì thiết kế hệ thống nào cũng bớt rối.*
 
 </details>
 
