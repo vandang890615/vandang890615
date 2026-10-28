@@ -140,17 +140,17 @@ Upstream contributions to core CAD & 3D geometry repositories:
 
 ### 🚰 Engineering Philosophy: The "Pipeline" Mental Model
 
-> *“A civil/MEP engineer organizes physical piping to run a facility. A software engineer architectures data pipelines to run the modern digital world.”*
+> *“An infrastructure engineer organizes physical pipelines to run a facility. A software engineer architectures data pipelines to run the modern digital world.”*
 
 <details>
 <summary><b>English: How Everything in Tech is Just "Pipes" (The Core Mental Model)</b></summary>
 <br/>
 
-Coming from a background in structural engineering and mechanical building services (MEP), designing core software infrastructure feels like doing the exact same job: transporting fluid from point A to point B at the correct flow rate and pressure, zero leaks, with shut-off valves for emergencies. The only difference is that the fluid is now data.
+Coming from a structural engineering background, designing core software infrastructure feels like applying the exact same principle: transporting fluid from point A to point B at the correct flow rate and pressure, zero leaks, with shut-off valves for emergencies. The only difference is that the fluid is now data.
 
 #### 🗺️ The Physical vs. Digital Plumbing Map
 
-| 🏠 Physical Plumbing (Civil / MEP) | 💻 Software Engineering Equivalent | ⚙️ Real-World Implementation in My Work |
+| 🏠 Physical Infrastructure (Plant & Piping) | 💻 Software Engineering Equivalent | ⚙️ Real-World Implementation in My Work |
 | :--- | :--- | :--- |
 | **Water, Gas, Fluids** | **Data (Bytes, Vectors, Tokens)** | The raw substance flowing through memory and execution threads. |
 | **Indoor RAM Plumbing** | **Local Pipe (`stdio`, IPC, Shared RAM)** | Direct zero-latency communication between **MCP Servers** and CAD hosts (SolidCraft, VNCAD, IngeTrazo). |
@@ -163,7 +163,7 @@ Coming from a background in structural engineering and mechanical building servi
 
 Pipes merely transport. A complete, reliable distribution network requires in-line equipment:
 
-| 🏠 Physical In-Line Equipment (MEP) | 💻 Software Engineering Equivalent | ⚙️ Real-World Steel Shop Example |
+| 🏠 In-Line Equipment (Plant & Infrastructure) | 💻 Software Engineering Equivalent | ⚙️ Real-World Steel Shop Example |
 | :--- | :--- | :--- |
 | **Reservoirs / Storage Tanks** | **Databases & Persistent Storage** | Master BOM database, steel stock inventory, and production schedule. |
 | **Pumps** | **CPU/GPU, Compute Workers** | Finite element structural analysis solvers and automated quantity takeoff workers. |
@@ -180,7 +180,7 @@ Pipes merely transport. A complete, reliable distribution network requires in-li
 * **Leaks & Deadlocks:** *Memory leaks* are quiet, steady pipe drips draining resources; *deadlocks* are two closed valves waiting on each other to open, leaving the flow frozen.
 * **🧬 Unix Philosophy & MCP Heritage:** In the 1970s, UNIX pioneered `|` (the Pipe operator) to stream `stdout` directly into `stdin`. Today, the **Model Context Protocol (MCP)** via `stdio` mode is literally a Unix pipe: JSON-RPC packets flowing seamlessly across `stdin`/`stdout` between AI assistants and CAD software.
 
-> *🎯 Takeaway: An MEP engineer doesn't need to model every individual water molecule. They master pressure, flow rate, joints, valves, and reservoirs. Software architecture is no different: master the flow, and any complex system becomes transparent.*
+> *🎯 Takeaway: An engineer doesn't need to model every individual fluid molecule. They master pressure, flow rate, joints, valves, and reservoirs. Software architecture is no different: master the flow, and any complex system becomes transparent.*
 
 </details>
 
@@ -188,11 +188,11 @@ Pipes merely transport. A complete, reliable distribution network requires in-li
 <summary><b>Tiếng Việt: Mọi thứ trong Công nghệ thực chất là một "Hệ Thống Đường Ống"</b></summary>
 <br/>
 
-Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). Khi thiết kế kiến trúc phần mềm lõi, tôi nhận ra mình đang làm đúng việc cũ: đưa “chất lỏng” từ nơi này đến nơi khác, đúng lưu lượng, đúng áp suất, không rò rỉ, có van khóa khi sự cố. Chỉ khác là chất lỏng bây giờ là dữ liệu.
+Tôi xuất thân là kỹ sư kết cấu công trình. Khi thiết kế kiến trúc phần mềm lõi và phối hợp các hệ thống kỹ thuật công nghiệp, tôi nhận ra mình đang làm đúng một nguyên lý quen thuộc: đưa “dòng chảy” từ nơi này đến nơi khác, đúng lưu lượng, đúng áp suất, không rò rỉ, có van khóa khi sự cố. Chỉ khác là dòng chảy bây giờ là dữ liệu.
 
 #### 🗺️ Đối chiếu hệ thống ống vật lý và kỹ thuật phần mềm
 
-| 🏠 Ống vật lý (Công trình / MEP) | 💻 Khái niệm tương đương trong phần mềm | ⚙️ Ứng dụng thực tế trong các dự án của tôi |
+| 🏠 Hệ thống vật lý (Công trình & Công nghiệp) | 💻 Khái niệm tương đương trong phần mềm | ⚙️ Ứng dụng thực tế trong các dự án của tôi |
 | :--- | :--- | :--- |
 | **Nước, khí gas, dầu** | **Dữ liệu (byte, chuỗi ký tự, vector, token)** | Vật chất thô lưu chuyển trong RAM và các luồng xử lý. |
 | **Đường ống cục bộ trong nhà** | **Ống cục bộ (`stdio`, IPC, bộ nhớ dùng chung)** | Máy chủ MCP trao đổi dữ liệu trực tiếp với phần mềm CAD/BIM (SolidCraft, VNCAD, IngeTrazo) với độ trễ cực thấp. |
@@ -205,7 +205,7 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 
 Ống chỉ vận chuyển. Một hệ thống hoàn chỉnh còn có những thiết bị trên tuyến:
 
-| 🏠 Thiết bị trên tuyến (MEP / Công trình) | 💻 Tương đương trong phần mềm | ⚙️ Ví dụ thực tế trong xưởng chế tạo kết cấu |
+| 🏠 Thiết bị trên tuyến (Công trình & Nhà máy) | 💻 Tương đương trong phần mềm | ⚙️ Ví dụ thực tế trong xưởng chế tạo kết cấu |
 | :--- | :--- | :--- |
 | **Bể chứa** | **Cơ sở dữ liệu, bộ nhớ lưu trữ** | Kho BOM master, tồn kho vật tư thép, tiến độ sản xuất. |
 | **Máy bơm** | **CPU/GPU, worker xử lý** | Tiến trình tính toán kết cấu, bóc tách khối lượng tự động. |
@@ -222,7 +222,7 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 * **Rò rỉ và tắc nghẽn:** Rò rỉ bộ nhớ (*Memory Leak*) là ống thất thoát âm thầm; tắc nghẽn (*Deadlock*) là hai đầu van chờ nhau mãi, không bên nào xả.
 * **🧬 Di sản triết lý Unix & MCP:** Thập niên 1970, UNIX phát minh ký tự gạch đứng `|` (Pipe operator), nối `stdout` chương trình này vào `stdin` chương trình khác. Ngày nay, **Model Context Protocol (MCP)** qua chế độ `stdio` chính là một đường ống dữ liệu trực tiếp: các thông điệp JSON-RPC truyền qua `stdin`/`stdout` giữa ứng dụng AI và phần mềm CAD.
 
-> *🎯 Kết: Kỹ sư MEP không cần hiểu từng phân tử nước. Họ cần hiểu áp suất, lưu lượng, mối nối, van và bể chứa. Kiến trúc phần mềm cũng vậy: hiểu dòng chảy thì thiết kế hệ thống nào cũng bớt rối.*
+> *🎯 Kết: Kỹ sư công trình không cần hiểu từng phân tử nước. Họ cần hiểu áp suất, lưu lượng, mối nối, van và bể chứa. Kiến trúc phần mềm cũng vậy: hiểu dòng chảy thì thiết kế hệ thống nào cũng bớt rối.*
 
 </details>
 
@@ -230,11 +230,11 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 <summary><b>中文：工程架构哲学——为什么技术世界本质都是“管道”？</b></summary>
 <br/>
 
-我有着工业重型钢结构与机电工程（MEP）的工程实践背景。在设计底层核心软件系统时，我发现自己做的事情如出一辙：把“流体”以额定的流量和压力，精准稳定地从一处输送到另一处，杜绝泄漏，并在事故发生时具备阀门切断保护。唯一的不同，在于现在的流体是数据。
+我有着工业重型钢结构与工程建设的实践背景。在设计底层核心软件系统时，我发现遵循的正是同样的工程本质：把“流体”以额定的流量和压力，精准稳定地从一处输送到另一处，杜绝泄漏，并在事故发生时具备阀门切断保护。唯一的不同，在于现在的流体是数据。
 
 #### 🗺️ 物理管网与软件工程映射图谱
 
-| 🏠 物理管网 (土木 / 机电 MEP) | 💻 软件工程等价概念 | ⚙️ 实际工程项目落地实践 |
+| 🏠 物理管网 (工业厂区 / 结构工程) | 💻 软件工程等价概念 | ⚙️ 实际工程项目落地实践 |
 | :--- | :--- | :--- |
 | **水、气体、流体** | **数据 (字节流、文本、向量、Token)** | 在内存堆栈与计算线程中流动的原始物质。 |
 | **建筑室内管道** | **本地管道 (`stdio`, IPC, 共享内存)** | 本地 **MCP 服务器** 与宿主 CAD/BIM 软件（SolidCraft、VNCAD、IngeTrazo）实现零网络开销毫秒级指令通信。 |
@@ -247,7 +247,7 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 
 管道仅承担输送职能。一个完整可靠的管网系统必须配备沿线管件与动力设备：
 
-| 🏠 沿线物理设备 (MEP / 供水管网) | 💻 软件架构等价概念 | ⚙️ 钢结构制造与工程场景实战 |
+| 🏠 沿线物理设备 (工业厂区 / 动力站) | 💻 软件架构等价概念 | ⚙️ 钢结构制造与工程场景实战 |
 | :--- | :--- | :--- |
 | **储水池 / 储罐** | **数据库、持久化存储** | Master BOM 总物料清单数据库、钢材现货库存与工序进度表。 |
 | **加压水泵** | **CPU/GPU 算力集群、Worker 进程** | 空间结构有限元求解计算、工程量自动统计线程。 |
@@ -264,7 +264,7 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 * **泄漏与堵塞 (Leaks & Deadlocks)：** 内存泄漏 (*Memory Leak*) 如暗漏之滴水穿石；死锁 (*Deadlock*) 如两端阀门互锁死等，无一能够泄流。
 * **🧬 Unix 管道哲学与 MCP 传承：** 1970 年代，UNIX 创始人发明了竖线 `|`（管道操作符），将前一个程序的 `stdout` 无缝注入后一个程序的 `stdin`。今天大火的 **Model Context Protocol (MCP)** 在 `stdio` 模式下本质就是纯粹的管道：JSON-RPC 消息通过 `stdin`/`stdout` 在 AI 智能体与 CAD 工业软件之间自由流淌。
 
-> *🎯 核心启示：机电工程师无需洞悉每个水分子的微观物理；他们掌控的是压力、流速、接口、阀门与蓄水池。软件架构亦然：理清数据水系的流向，再庞大的系统也井然有序。*
+> *🎯 核心启示：结构工程师无需洞悉每个水分子的微观物理；他们掌控的是压力、流速、接口、阀门与蓄水池。软件架构亦然：理清数据水系的流向，再庞大的系统也井然有序。*
 
 </details>
 
@@ -273,11 +273,11 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 <div dir="rtl">
 <br/>
 
-من پیشینه‌ای در مهندسی سازه و تاسیسات مکانیکی (MEP) دارم. هنگام طراحی معماری هسته نرم‌افزار، متوجه شدم دقیقاً همان کار همیشگی را انجام می‌دهم: انتقال «سیال» از نقطه‌ای به نقطه دیگر، با دبی و فشار مناسب، بدون نشتی، و مجهز به شیرهای قطع‌کننده در مواقع بحران. تنها تفاوت این است که این سیال اکنون داده است.
+من پیشینه‌ای در مهندسی سازه‌های صنعتی دارم. هنگام طراحی معماری هسته نرم‌افزار، متوجه شدم دقیقاً همان کار همیشگی را انجام می‌دهم: انتقال «سیال» از نقطه‌ای به نقطه دیگر، با دبی و فشار مناسب، بدون نشتی، و مجهز به شیرهای قطع‌کننده در مواقع بحران. تنها تفاوت این است که این سیال اکنون داده است.
 
 #### 🗺️ جدول تطبیق لوله‌کشی فیزیکی با مهندسی نرم‌افزار
 
-| 🏠 لوله‌کشی فیزیکی (عمران / تاسیسات MEP) | 💻 معادل در مهندسی نرم‌افزار | ⚙️ پیاده‌سازی واقعی در پروژه‌های من |
+| 🏠 لوله‌کشی و زیرساخت فیزیکی (صنعتی / سازه) | 💻 معادل در مهندسی نرم‌افزار | ⚙️ پیاده‌سازی واقعی در پروژه‌های من |
 | :--- | :--- | :--- |
 | **آب، گاز، سیالات صنعتی** | **داده‌ها (بایت، بردار، متن، توکن)** | ماده خام و بنیادین جاری در حافظه RAM و رشته‌های پردازشی. |
 | **لوله‌کشی داخلی ساختمان** | **لوله محلی (`stdio`، IPC، حافظه اشتراکی)** | ارتباط مستقیم و بدون تاخیر میان سرورهای **MCP** و نرم‌افزارهای میزبان CAD/BIM (مانند SolidCraft، VNCAD، IngeTrazo). |
@@ -290,7 +290,7 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 
 لوله صرفاً سیال را منتقل می‌کند. یک سامانه انتقال ایمن و کارآمد نیازمند تجهیزات جانبی روی خط است:
 
-| 🏠 تجهیزات فیزیکی خط لوله (MEP) | 💻 مفهوم معادل در معماری نرم‌افزار | ⚙️ کاربرد واقعی در کارگاه و مهندسی سازه |
+| 🏠 تجهیزات فیزیکی خط لوله (تاسیسات صنعتی) | 💻 مفهوم معادل در معماری نرم‌افزار | ⚙️ کاربرد واقعی در کارگاه و مهندسی سازه |
 | :--- | :--- | :--- |
 | **مخازن ذخیره و تانکرهای سیال** | **پایگاه داده و حافظه ذخیره‌سازی پایدار** | مخزن مرکزی لیستوفر (BOM)، انبار مقاطع فولادی و زمان‌بندی پیشرفت تولید. |
 | **پمپ‌های انتقال و تقویت فشار** | **پردازنده‌های CPU/GPU و کارگزارهای پردازشی (Workers)** | محاسبات سنگین تحلیل سازه و موتور متره و برآورد احجام خودکار. |
@@ -307,7 +307,7 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 * **نشتی و انسداد:** نشتی حافظه (*Memory Leak*) چکه کردن پنهان لوله است؛ و بن‌بست (*Deadlock*) وضعیتی است که در آن دو شیر منتظر باز شدن یکدیگر می‌مانند و هیچ‌کدام تخلیه نمی‌شوند.
 * **🧬 میراث فلسفه یونیکس و MCP:** در دهه ۱۹۷۰ میلادی، یونیکس عملگر خط عمودی `|` (Pipe) را معرفی کرد تا خروجی `stdout` یک برنامه مستقیماً به ورودی `stdin` برنامه دیگر تزریق شود. امروزه استاندارد **Model Context Protocol (MCP)** در حالت `stdio` دقیقاً یک خط لوله یونیکس است: پیام‌های JSON-RPC از طریق `stdin`/`stdout` میان دستیار هوش مصنوعی و نرم‌افزار CAD جریان می‌یابند.
 
-> *🎯 پیام کلیدی: یک مهندس تاسیسات نیازی به درک تک‌تک مولکول‌های آب ندارد؛ او بر فشار، دبی جریان، اتصالات، شیرآلات و مخازن مسلط است. معماری نرم‌افزار نیز دقیقاً به همین صورت است: وقتی مسیر جریان را بشناسید، پیچیده‌ترین سامانه‌ها شفاف و قابل کنترل می‌شوند.*
+> *🎯 پیام کلیدی: یک مهندس سازه نیازی به درک تک‌تک مولکول‌های سیال ندارد؛ او بر فشار، دبی جریان، اتصالات، شیرآلات و مخازن مسلط است. معماری نرم‌افزار نیز دقیقاً به همین صورت است: وقتی مسیر جریان را بشناسید، پیچیده‌ترین سامانه‌ها شفاف و قابل کنترل می‌شوند.*
 
 </div>
 </details>

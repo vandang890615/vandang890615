@@ -62,17 +62,17 @@ Lĩnh vực chuyên môn trọng tâm:
 
 ### 🚰 Triết Lý Kỹ Thuật: Bản Đồ "Đường Ống" (The Pipeline Mental Model)
 
-> *“Kỹ sư công trình sắp đặt hệ thống ống vật lý để vận hành một nhà máy. Kỹ sư phần mềm kiến trúc hệ thống đường ống dữ liệu để vận hành thế giới số.”*
+> *“Kỹ sư công trình sắp đặt hệ thống đường ống vật lý để vận hành một nhà máy. Kỹ sư phần mềm kiến trúc hệ thống đường ống dữ liệu để vận hành thế giới số.”*
 
 <details>
 <summary><b>Tiếng Việt: Mọi thứ trong Công nghệ thực chất là một "Hệ Thống Đường Ống"</b></summary>
 <br/>
 
-Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). Khi thiết kế kiến trúc phần mềm lõi, tôi nhận ra mình đang làm đúng việc cũ: đưa “chất lỏng” từ nơi này đến nơi khác, đúng lưu lượng, đúng áp suất, không rò rỉ, có van khóa khi sự cố. Chỉ khác là chất lỏng bây giờ là dữ liệu.
+Tôi xuất thân là kỹ sư kết cấu công trình. Khi thiết kế kiến trúc phần mềm lõi và phối hợp các hệ thống kỹ thuật công nghiệp, tôi nhận ra mình đang làm đúng một nguyên lý quen thuộc: đưa “dòng chảy” từ nơi này đến nơi khác, đúng lưu lượng, đúng áp suất, không rò rỉ, có van khóa khi sự cố. Chỉ khác là dòng chảy bây giờ là dữ liệu.
 
 #### 🗺️ Đối chiếu hệ thống ống vật lý và kỹ thuật phần mềm
 
-| 🏠 Ống vật lý (Công trình / MEP) | 💻 Khái niệm tương đương trong phần mềm | ⚙️ Ứng dụng thực tế trong các dự án của tôi |
+| 🏠 Hệ thống vật lý (Công trình & Công nghiệp) | 💻 Khái niệm tương đương trong phần mềm | ⚙️ Ứng dụng thực tế trong các dự án của tôi |
 | :--- | :--- | :--- |
 | **Nước, khí gas, dầu** | **Dữ liệu (byte, chuỗi ký tự, vector, token)** | Vật chất thô lưu chuyển trong RAM và các luồng xử lý. |
 | **Đường ống cục bộ trong nhà** | **Ống cục bộ (`stdio`, IPC, bộ nhớ dùng chung)** | Máy chủ MCP trao đổi dữ liệu trực tiếp với phần mềm CAD/BIM (SolidCraft, VNCAD, IngeTrazo) với độ trễ cực thấp. |
@@ -85,7 +85,7 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 
 Ống chỉ vận chuyển. Một hệ thống hoàn chỉnh còn có những thiết bị trên tuyến:
 
-| 🏠 Thiết bị trên tuyến (MEP / Công trình) | 💻 Tương đương trong phần mềm | ⚙️ Ví dụ thực tế trong xưởng chế tạo kết cấu |
+| 🏠 Thiết bị trên tuyến (Công trình & Nhà máy) | 💻 Tương đương trong phần mềm | ⚙️ Ví dụ thực tế trong xưởng chế tạo kết cấu |
 | :--- | :--- | :--- |
 | **Bể chứa** | **Cơ sở dữ liệu, bộ nhớ lưu trữ** | Kho BOM master, tồn kho vật tư thép, tiến độ sản xuất. |
 | **Máy bơm** | **CPU/GPU, worker xử lý** | Tiến trình tính toán kết cấu, bóc tách khối lượng tự động. |
@@ -102,7 +102,7 @@ Tôi xuất thân là kỹ sư kết cấu và cơ điện công trình (MEP). K
 * **Rò rỉ và tắc nghẽn:** Rò rỉ bộ nhớ (*Memory Leak*) là ống thất thoát âm thầm; tắc nghẽn (*Deadlock*) là hai đầu van chờ nhau mãi, không bên nào xả.
 * **🧬 Di sản triết lý Unix & MCP:** Thập niên 1970, UNIX phát minh ký tự gạch đứng `|` (Pipe operator), nối `stdout` chương trình này vào `stdin` chương trình khác. Ngày nay, **Model Context Protocol (MCP)** qua chế độ `stdio` chính là một đường ống dữ liệu trực tiếp: các thông điệp JSON-RPC truyền qua `stdin`/`stdout` giữa ứng dụng AI và phần mềm CAD.
 
-> *🎯 Kết: Kỹ sư MEP không cần hiểu từng phân tử nước. Họ cần hiểu áp suất, lưu lượng, mối nối, van và bể chứa. Kiến trúc phần mềm cũng vậy: hiểu dòng chảy thì thiết kế hệ thống nào cũng bớt rối.*
+> *🎯 Kết: Kỹ sư công trình không cần hiểu từng phân tử nước. Họ cần hiểu áp suất, lưu lượng, mối nối, van và bể chứa. Kiến trúc phần mềm cũng vậy: hiểu dòng chảy thì thiết kế hệ thống nào cũng bớt rối.*
 
 </details>
 
